@@ -1,5 +1,7 @@
 # awesome-web3
 
+English/[中文](https://github.com/footprintanalytics/awesome-web3/blob/main/README-CN.md)
+
 ## Preface
 There is huge potential and value in on-chain data, and data analysis can be very helpful for project operations and investments. However, we also learned that it is difficult for many analysts to analyse on-chain data because it is complex and many products require writing SQL, which requires analysts to have a technical background. 
 
