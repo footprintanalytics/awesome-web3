@@ -14,6 +14,7 @@ We believe that a continuing and high-quality output is the best way to strength
     - SQL basics intro
     - Chains
     - EVM
+    - [Bitcoin](https://www.baidu.com/)
     - Solana
     - Wax
     - Dogecoin
