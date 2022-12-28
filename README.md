@@ -1,8 +1,26 @@
-# awesome-web3
+# awesome-web3-data
 
 English/[中文](https://github.com/footprintanalytics/awesome-web3/blob/main/README-CN.md)
 
+<div align="center">
+  <div align=center><img src="https://statichk.footprint.network/img_nav_logo_v5.svg" width=" 500 "></div>
+  <h4 align="center">
+    Bring a comprehensive and professional data analysis repository to all the people.
+  </h4>
+  <p>Blockchain analytics made simple!</p>
+  <br />
+ <a href="https://www.footprint.network/">Website</a>｜<a href="https://docs.footprint.network/docs‘https://docs.footprint.network/docs">Docs</a>｜<a href="https://www.footprint.network/news/academy">Web3 Data Academy </a>
+  <p>
+    <a href="https://twitter.com/Footprint_Data"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Footprint_Data?label=Follow"></a>
+    <a href="https://discord.gg/3HYaR6USM7"><img src="https://img.shields.io/discord/864829036294307881?color=5865F2&logo=discord&logoColor=white&label=discord" alt="Discord server" /></a>
+    <a href="https://t.me/joinchat/4-ocuURAr2thODFh"><img src="https://img.shields.io/badge/telegram-blue?color=blue&logo=telegram&logoColor=white" alt="Telegram group" /></a>
+    <a href="https://www.youtube.com/c/FootprintAnalytics"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCKwZbKyuhWveetGhZcNtSTg?style=social"></a>
+  </p>
+</div>
+
+
 ## Preface
+
 There is huge potential and value in on-chain data, and data analysis can be very helpful for project operations and investments. However, we also learned that it is difficult for many analysts to analyse on-chain data because it is complex and many products require writing SQL, which requires analysts to have a technical background. 
 
 With the 101 course we would like to bring a comprehensive and professional data analysis repository to all the people. The future of knowledge is decentralised, open, and transparent. Using data to make your smart decision, be together and build an open and free web3 world. We want to help analysts to be able to analyse on-chain data at a lower threshold. So not only do we provide easy to use tools, but we also do a lot of business processing of the data so that analysts can understand the business in the chain rather than dealing with complex raw data. With over a thousand dashboard templates plus a drag-and-drop interface, anyone can build their own customised charts in minutes as our mission is to make data analysis accessible to more analysts, especially for data analysts without a technical background.
