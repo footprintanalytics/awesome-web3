@@ -4,13 +4,14 @@ English/[中文](https://github.com/footprintanalytics/awesome-web3/blob/main/RE
 
 <div align="center">
   <div align=center><img src="https://statichk.footprint.network/img_nav_logo_v5.svg" width=" 500 "></div>
-  <h4 align="center">
+  <h3 align="center">
     Bring a comprehensive and professional data analysis repository to all the people.
-  </h4>
+  </h3>
   <p>Blockchain analytics made simple!</p>
   <br />
  <a href="https://www.footprint.network/">Website</a>｜<a href="https://docs.footprint.network/docs‘https://docs.footprint.network/docs">Docs</a>｜<a href="https://www.footprint.network/news/academy">Web3 Data Academy </a>
   <p>
+    <br />
     <a href="https://twitter.com/Footprint_Data"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Footprint_Data?label=Follow"></a>
     <a href="https://discord.gg/3HYaR6USM7"><img src="https://img.shields.io/discord/864829036294307881?color=5865F2&logo=discord&logoColor=white&label=discord" alt="Discord server" /></a>
     <a href="https://t.me/joinchat/4-ocuURAr2thODFh"><img src="https://img.shields.io/badge/telegram-blue?color=blue&logo=telegram&logoColor=white" alt="Telegram group" /></a>
