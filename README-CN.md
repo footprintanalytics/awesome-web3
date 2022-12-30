@@ -20,63 +20,63 @@
 </div>
 
 
-## 序言
+## 前言
 
-There is huge potential and value in on-chain data, and data analysis can be very helpful for project operations and investments. However, we also learned that it is difficult for many analysts to analyse on-chain data because it is complex and many products require writing SQL, which requires analysts to have a technical background. 
+链上数据有巨大的潜力和价值，数据分析对项目运营和投资有很大帮助。然而，我们也了解到，由于它很复杂，并且很多产品需要写 SQL，要求分析师有写代码能力，导致很多分析师很难分析链上数据。
 
-With the 101 course we would like to bring a comprehensive and professional data analysis repository to all the people. The future of knowledge is decentralised, open, and transparent. Using data to make your smart decision, be together and build an open and free web3 world. We want to help analysts to be able to analyse on-chain data at a lower threshold. So not only do we provide easy to use tools, but we also do a lot of business processing of the data so that analysts can understand the business in the chain rather than dealing with complex raw data. With over a thousand dashboard templates plus a drag-and-drop interface, anyone can build their own customised charts in minutes as our mission is to make data analysis accessible to more analysts, especially for data analysts without a technical background.
+通过这个系列的课程，我们希望为所有人带来一个全面而专业的数据分析库。知识的未来是分散的、开放的、透明的。使用数据来做出你的智能决策，一起建立一个开放和自由的 web3 世界。我们希望帮助分析师能够以较低的门槛来分析和使用链上数据。因此，我们不仅提供易于使用的工具，而且还对数据进行大量的业务处理，使分析人员能够了解链上的业务，而无需处理复杂的原始数据。我们有一千多个仪表盘模板，再加上拖放界面，任何人都可以在几分钟内建立自己的定制图表，因为我们的使命是让更多的分析员，尤其是没有技术背景的数据分析员能够使用数据分析以及搭建自己的应用。
 
-We believe that a continuing and high-quality output is the best way to strengthen the knowledge system. Meanwhile, studying through building a course together is a milestone in practicing the blockchain spirit. We will be together and build an open and free web3 world.
+我们相信，持续的、高质量的输出是加强知识体系的最好方式。同时，通过共建课程学习是践行区块链精神的一个里程碑。我们将一起，建立一个开放和自由的 web3 世界。
 
-- Understanding Web3 data
-    - Data analytics in Web3
+- 了解 Web3 数据
+    - Web3 领域的数据
     - Footprint Analytics
-          -  How to create a dashboard
-    - SQL basics intro
-    - Chains
+          -  如何从 0 创建第一个 0 代码数据分析面板
+    - SQL 基础入门
+    - 公链
     - EVM
     - Solana
     - Wax
     - Dogecoin
-- EVM Analysis
+- EVM 分析
     - EVM
     - Chains & Raw data
     - Layers
-    -  Advanced
-    - Gas Analytics
-- NFT Analysis
-    - Intro (use-cases, types, metadata)
+    - 高级分析
+    - Gas 分析
+- NFT 分析
+    - NFT 分析介绍 (use cases, 类型, metadata)
     - Blue Chip
-    - NFT User Analysis
+    - NFT 用户分析
     - NFT Collections
     - Marketplaces and aggregators
-    - Whale wallets
+    - 大鲸钱包分析
     - Wash trading
-- GameFi Analysis
-    - Introduction and use-cases
+- GameFi 分析
+    - GameFi 分析介绍和 Use case
     - Tokenomics
-    - Game analysis
-    - Game user analysis - advanced
-- DeFi Analysis
+    - 游戏分析
+    - 游戏的用户分析 - 高级版
+- DeFi 分析
     - Dexes
     - Lending
-    - Stablecoins
+    - 稳定币
     - Yield Farming
-- Wallet Analysis
-    - Wallet Addresses Analysis
+- Wallet 分析
+    - Wallet 地址分析
 - Footprint for Developer
     - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
     - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
-    - Different API use cases for web3 developers
-    - How to choose a data provider for your web3 project?
-    - Build blockchain data apps in minutes with Footprint Analytics
-    - Introduction of Footprint Data API
-    - Embed NFT data into any website or platform
+    - 链上数据 API 的使用场景分析
+    - Web3 的开发者，如何评估以及选择调用链上数据的解决方案
+    - 使用 Footprint Analytics, 快速搭建区块链数据应用
+    - Footprint Data API 介绍
+    - 免费嵌入 NFT 数据到任何网站或平台
 - How Footprint Works
-    - Iceberg + Spark + Trino: a modern opensource data stack for blockchain
-    - Comparing Footprint and Dune data models
-    - How are the 3 Top Crypto Analytics Platforms Different? 
-    - How Footprint Analytics helps blockchain researchers
-    - How Bingo NFT helps traders and investors analyze the market
-    - Data Quality
+    - Iceberg-Trino 如何解决链上数据面临的挑战
+    - 深度对比 Footprint 和 Dune 数据模型
+    - 5分钟快速对比头部链上数据分析工具
+    - Footprint Analytics 如何帮助区块链研究人员进行数据研究
+    - Bingo NFT 如何帮助交易者和投资者分析市场
+    - Footprint Analytics 如何保障数据质量
     - How to create chart building no code based on metabase
