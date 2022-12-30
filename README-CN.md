@@ -29,7 +29,7 @@
 我们相信，持续的、高质量的输出是加强知识体系的最好方式。同时，通过共建课程学习是践行区块链精神的一个里程碑。我们将一起，建立一个开放和自由的 web3 世界。
 
 - 了解 Web3 数据
-    - Web3 领域的数据
+    - [Web3 领域的数据](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YnLZJjKd6oj7PEFPn5Xtpmex1OuZ5mGR-fqCkBXXM3g)
     - Footprint Analytics
           -  如何从 0 创建第一个 0 代码数据分析面板
     - SQL 基础入门
@@ -46,7 +46,7 @@
     - Gas 分析
 - NFT 分析
     - NFT 分析介绍 (use cases, 类型, metadata)
-    - Blue Chip
+    - [Blue Chip](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/tCVAbQRAYsUxC9ojYDAfwTPwP6zVaRNYTCPsHesnPwM)
     - NFT 用户分析
     - NFT Collections
     - Marketplaces and aggregators
@@ -61,22 +61,22 @@
     - Dexes
     - Lending
     - 稳定币
-    - Yield Farming
+    - [Yield Farming](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YiZ5u2hSQTunoxjyPr5xtK_WH0EWaTOX7kcBFKlJc64)
 - Wallet 分析
     - Wallet 地址分析
 - Footprint for Developer
     - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
     - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
-    - 链上数据 API 的使用场景分析
-    - Web3 的开发者，如何评估以及选择调用链上数据的解决方案
-    - 使用 Footprint Analytics, 快速搭建区块链数据应用
+    - [链上数据 API 的使用场景分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wq9PeqTmH3Jg5EmSkJN3DBXER-z8_YgR215u1Ano1cY)
+    - [Web3 的开发者，如何评估以及选择调用链上数据的解决方案](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/_pLziun8LMNNE-tXRjktvYjAUSOHTHlOOQpS0VHWavo)
+    - [使用 Footprint Analytics, 快速搭建区块链数据应用](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/O3_0NqjiRYp8G5PO-onbg8k-WU8-g3-nexoZ2BnNYrg)
     - Footprint Data API 介绍
-    - 免费嵌入 NFT 数据到任何网站或平台
+    - [免费嵌入 NFT 数据到任何网站或平台](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/BmeeRihsKhqO1M8tMXY4h6lMdCKF6qoRAb4M_t5sO-)
 - How Footprint Works
-    - Iceberg-Trino 如何解决链上数据面临的挑战
-    - 深度对比 Footprint 和 Dune 数据模型
+    - [Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
+    - [深度对比 Footprint 和 Dune 数据模型](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/HFuE9ldpy3PfO4XynGlEiRNp4G1vI_tg0HOXVWU4btA)
     - 5分钟快速对比头部链上数据分析工具
-    - Footprint Analytics 如何帮助区块链研究人员进行数据研究
-    - Bingo NFT 如何帮助交易者和投资者分析市场
+    - [Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
+    - [Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
     - Footprint Analytics 如何保障数据质量
     - How to create chart building no code based on metabase
