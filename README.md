@@ -63,7 +63,7 @@ We believe that a continuing and high-quality output is the best way to strength
     - Stablecoins
     - [Yield Farming](https://www.footprint.network/article/3-4-the-ultimate-beginner-s-guide-to-defi-how-to-make-money-with-crypto-by-yield-farming-KM0t1g6d)
 - Wallet Analysis
-    - Wallet Addresses Analysis
+    - [Wallet Addresses Analysis](https://www.footprint.network/article/4-1-wallet-addresses-analysis-fp-xvdIKGzc)
 - Footprint for Developer
     - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
     - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
