@@ -9,7 +9,7 @@ English/[中文](https://github.com/footprintanalytics/awesome-web3/blob/main/RE
   </h3>
   <p>Blockchain analytics made simple!</p>
   <br />
- <a href="https://www.footprint.network/">Website</a>｜<a href="https://docs.footprint.network/docs‘https://docs.footprint.network/docs">Docs</a>｜<a href="https://www.footprint.network/news/academy">Web3 Data Academy </a>
+ <a href="https://www.footprint.network/">Website</a>｜<a href="https://docs.footprint.network/docs">Docs</a>｜<a href="https://www.footprint.network/news/academy">Web3 Data Academy </a>
   <p>
     <br />
     <a href="https://twitter.com/Footprint_Data"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Footprint_Data?label=Follow"></a>
