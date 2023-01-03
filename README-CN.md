@@ -43,7 +43,7 @@
     - Chains & Raw data
     - Layers
     - 高级分析
-    - Gas 分析
+    - [Gas 分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/FYURGBEswcJ-59fHSsDSysvI6wqZdV4t-B1eVUHwN0c)
 - NFT 分析
     - NFT 分析介绍 (use cases, 类型, metadata)
     - [Blue Chip](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/tCVAbQRAYsUxC9ojYDAfwTPwP6zVaRNYTCPsHesnPwM)
@@ -75,7 +75,7 @@
 - How Footprint Works
     - [Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
     - [深度对比 Footprint 和 Dune 数据模型](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/HFuE9ldpy3PfO4XynGlEiRNp4G1vI_tg0HOXVWU4btA)
-    - 5分钟快速对比头部链上数据分析工具
+    - [5分钟快速对比头部链上数据分析工具](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Sm0RxTskbQimmWv19Umnfv90WmR07wcTeBSASft6it0)
     - [Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
     - [Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
     - Footprint Analytics 如何保障数据质量
