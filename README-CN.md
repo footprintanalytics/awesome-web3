@@ -78,7 +78,7 @@
     - Wallet 地址分析
     - [6.2 [Intermediate]钱包追踪分析的3个使用案例](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/RtfU5EM8gheN3dI04rE3JomE6G6LV41mqlpLfUX4peI)
 - Footprint Analytics for SQL
-    - [7.1 [Intermediate] SQL基础](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/IH_A9jdrfKuyPkYnQaHJJBhn-0wOpviogcGzkTie55c)
+    - [7.1 [Intermediate] SQL基础-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/IH_A9jdrfKuyPkYnQaHJJBhn-0wOpviogcGzkTie55c)
     - [7.2 [Intermediate] SQL基础-2](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/D8WTQT89QYbbkjg46VBvOiMgIjZ1qLeNhpKyEbBK_7Q)
     - [7.3 [Advanced] Footprint上的常用查询：代币持有者、总供应量、账户余额](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/s44wIZMnHOl8DDLXgtGfA-5dK411OqvktPGLVIHybac)
 - Footprint for Developer
