@@ -32,7 +32,12 @@ We believe that a continuing and high-quality output is the best way to strength
     - [Data analytics in Web3](https://www.footprint.network/article/1-1-data-in-web3-TB7aPlAi)
     - Footprint Analytics
           -  [How to create a dashboard](https://www.footprint.network/article/1-2-footprint-analytics-kvLDOmUv)
-    - SQL basics intro
+    - [How Footprint Analytics helps blockchain researchers](https://www.footprint.network/article/7-4-how-footprint-analytics-helps-blockchain-researchers-XzFCDoUe)
+    - [How Bingo NFT helps traders and investors analyze the market](https://www.footprint.network/article/7-5-how-bingo-nft-helps-traders-and-investors-analyze-the-market-2WhSy3Vu)
+    - [Iceberg + Spark + Trino: a modern opensource data stack for blockchain](https://www.footprint.network/article/7-1-iceberg-spark-trino-a-modern-opensource-data-stack-for-blockchain-fp-HGZpPm3D)
+    - [Comparing Footprint and Dune data models](https://www.footprint.network/article/7-2-comparing-footprint-and-dune-data-models-fp-xpquq6RZ)
+    - [How are the 3 Top Crypto Analytics Platforms Different?](https://www.footprint.network/article/7-3-how-are-the-3-top-crypto-analytics-platforms-different-Aucc4Pab) 
+    -SQL basics intro
     - Chains
     - EVM
     - Solana
@@ -46,6 +51,8 @@ We believe that a continuing and high-quality output is the best way to strength
     - [Gas Analytics](https://www.footprint.network/article/2-5-evm-gas-analysis-tr6lTr5i)
 - NFT Analysis
     - Intro (use-cases, types, metadata)
+    - [5 Indicators for Smarter NFT Trading](https://www.footprint.network/article/3-2-intermediate-5-indicators-for-smarter-nft-trading-fp-ASzLMHlf)
+    - [4 Indicators to Analyze the Supply and Demand of NFT Collections](https://www.footprint.network/article/4-indicators-to-analyze-the-supply-and-demand-of-nft-collections-YpCRDpIH)
     - [Blue Chip](https://www.footprint.network/article/3-6-what-makes-an-nft-project-blue-chip-CsNciXZy)
     - NFT User Analysis
     - NFT Collections
@@ -54,30 +61,30 @@ We believe that a continuing and high-quality output is the best way to strength
     - Wash trading
 - GameFi Analysis
     - [Introduction and use-cases](https://www.footprint.network/article/4-1-gamefi-data-analysis-fp-tdR0TWvk)
+    - [5 Metrics to Analyze P2E Games (Using a Real Example)](https://www.footprint.network/article/4-2-intermediate-5-metrics-to-analyze-p2e-games-using-a-real-example-j34ZHmpy)
     - Tokenomics
     - Game analysis
     - Game user analysis - advanced
 - DeFi Analysis
+    - [DeFi for Beginner -1 ](https://www.footprint.network/article/5-1-beginner-the-ultimate-beginner-s-guide-to-defi-all-you-need-to-know-to-invest-in-defi-fp-8Ou3iK6Q)
+    - [DeFi for Beginner -2](https://www.footprint.network/article/5-2-beginner-the-ultimate-beginner-s-guide-to-defi-how-to-make-money-with-crypto-by-yield-farming-KM0t1g6d)
     - Dexes
     - Lending
     - Stablecoins
-    - [Yield Farming](https://www.footprint.network/article/3-4-the-ultimate-beginner-s-guide-to-defi-how-to-make-money-with-crypto-by-yield-farming-KM0t1g6d)
+    - Yield Farming
 - Wallet Analysis
     - [Wallet Addresses Analysis](https://www.footprint.network/article/4-1-wallet-addresses-analysis-fp-xvdIKGzc)
+    - [3 Use Cases for Wallet Tracking Analysis](https://www.footprint.network/article/6-2-intermediate-3-use-cases-for-wallet-tracking-analysis-5e6LP3r6)
 - Footprint for SQL
+    - [SQL Basics -part 1](https://www.footprint.network/article/7-1-intermediate-sql-basics-part-1-fp-Roxp1Iez)
+    - [SQL Basics -part 2](https://www.footprint.network/article/7-2-intermediate-sql-basics-part-2-fp-KQTp6B8o)
+    - [SQL Advanced - Common SQL query On Footprint: token holders  \ total supply \ token balance](https://www.footprint.network/article/7-3-advanced-common-sql-query-on-footprint-token-holders-total-supply-token-balance-fp-x6skgDoP)
+    
 - Footprint for Developer
-    - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
-    - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
     - [Different API use cases for web3 developers](https://www.footprint.network/article/6-3-different-api-use-cases-for-web3-developers-cnPuEMRk)
     - [How to choose a data provider for your web3 project?](https://www.footprint.network/article/6-4-how-to-choose-a-data-provider-for-your-web3-project-fp-o2YLmocR)
     - [Build blockchain data apps in minutes with Footprint Analytics](https://www.footprint.network/article/6-5-build-blockchain-data-apps-in-minutes-with-footprint-analytics-6uw1o6TM)
     - [Introduction of Footprint Data API](https://www.footprint.network/article/6-6-build-your-project-with-footprint-analytics-data-api-fp-utU0s7Ai)
     - [Embed NFT data into any website or platform](https://www.footprint.network/article/6-7-embed-nft-data-into-any-website-or-platform-fp-pwsuthcZ)
-- How Footprint Works
-    - [Iceberg + Spark + Trino: a modern opensource data stack for blockchain](https://www.footprint.network/article/7-1-iceberg-spark-trino-a-modern-opensource-data-stack-for-blockchain-fp-HGZpPm3D)
-    - [Comparing Footprint and Dune data models](https://www.footprint.network/article/7-2-comparing-footprint-and-dune-data-models-fp-xpquq6RZ)
-    - [How are the 3 Top Crypto Analytics Platforms Different?](https://www.footprint.network/article/7-3-how-are-the-3-top-crypto-analytics-platforms-different-Aucc4Pab) 
-    - [How Footprint Analytics helps blockchain researchers](https://www.footprint.network/article/7-4-how-footprint-analytics-helps-blockchain-researchers-XzFCDoUe)
-    - [How Bingo NFT helps traders and investors analyze the market](https://www.footprint.network/article/7-5-how-bingo-nft-helps-traders-and-investors-analyze-the-market-2WhSy3Vu)
-    - Data Quality
-    - How to create chart building no code based on metabase
+    - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
+    - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
