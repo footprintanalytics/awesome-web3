@@ -32,6 +32,13 @@
     - [Web3 领域的数据](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YnLZJjKd6oj7PEFPn5Xtpmex1OuZ5mGR-fqCkBXXM3g)
     - Footprint Analytics
           -  如何从 0 创建第一个 0 代码数据分析面板
+    - [Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
+    - [深度对比 Footprint 和 Dune 数据模型](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/HFuE9ldpy3PfO4XynGlEiRNp4G1vI_tg0HOXVWU4btA)
+    - [5分钟快速对比头部链上数据分析工具](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Sm0RxTskbQimmWv19Umnfv90WmR07wcTeBSASft6it0)
+    - [Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
+    - [Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
+    - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
+    - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
     - SQL 基础入门
     - 公链
     - EVM
@@ -46,6 +53,8 @@
     - [Gas 分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/FYURGBEswcJ-59fHSsDSysvI6wqZdV4t-B1eVUHwN0c)
 - NFT 分析
     - NFT 分析介绍 (use cases, 类型, metadata)
+    - [5个指标让 NFT 交易更智能](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wlrxjh6vrCA51c_qVDHtI0MD3BFS8z6pd1TFJqLmRPM)
+    - [4个指标分析 NFT 收藏品的供需情况](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/0jmuaRQFCk1adn-hvyGllIBcxMnQtuFlM-Ul9j_wInY)
     - [Blue Chip](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/tCVAbQRAYsUxC9ojYDAfwTPwP6zVaRNYTCPsHesnPwM)
     - NFT 用户分析
     - NFT Collections
@@ -54,29 +63,27 @@
     - Wash trading
 - GameFi 分析
     - GameFi 分析介绍和 Use case
+    - [分析P2E游戏的5个指标](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/E4eLEnK90HqvwU3svFt1pzMKnbmu1BoGPr2XcdFl77M)
     - Tokenomics
     - 游戏分析
     - 游戏的用户分析 - 高级版
 - DeFi 分析
+    - [DeFi 入门-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/7IjdO-D4VcB-z9g9wGDmS7ZEr4U0zfC_-XUL0m2HaNw)
+    - [DeFi 入门-2](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YiZ5u2hSQTunoxjyPr5xtK_WH0EWaTOX7kcBFKlJc64)
     - Dexes
     - Lending
     - 稳定币
-    - [Yield Farming](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YiZ5u2hSQTunoxjyPr5xtK_WH0EWaTOX7kcBFKlJc64)
+    - Yield Farming
 - Wallet 分析
     - Wallet 地址分析
+    - [钱包追踪分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/RtfU5EM8gheN3dI04rE3JomE6G6LV41mqlpLfUX4peI)
+- Footprint Analytics for SQL
+    - [SQL基础-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/IH_A9jdrfKuyPkYnQaHJJBhn-0wOpviogcGzkTie55c)
+    - SQL基础-2
+    - SQL进阶
 - Footprint for Developer
-    - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
-    - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
     - [链上数据 API 的使用场景分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wq9PeqTmH3Jg5EmSkJN3DBXER-z8_YgR215u1Ano1cY)
     - [Web3 的开发者，如何评估以及选择调用链上数据的解决方案](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/_pLziun8LMNNE-tXRjktvYjAUSOHTHlOOQpS0VHWavo)
     - [使用 Footprint Analytics, 快速搭建区块链数据应用](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/O3_0NqjiRYp8G5PO-onbg8k-WU8-g3-nexoZ2BnNYrg)
     - Footprint Data API 介绍
     - [免费嵌入 NFT 数据到任何网站或平台](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/BmeeRihsKhqO1M8tMXY4h6lMdCKF6qoRAb4M_t5sO-)
-- How Footprint Works
-    - [Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
-    - [深度对比 Footprint 和 Dune 数据模型](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/HFuE9ldpy3PfO4XynGlEiRNp4G1vI_tg0HOXVWU4btA)
-    - [5分钟快速对比头部链上数据分析工具](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Sm0RxTskbQimmWv19Umnfv90WmR07wcTeBSASft6it0)
-    - [Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
-    - [Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
-    - Footprint Analytics 如何保障数据质量
-    - How to create chart building no code based on metabase
