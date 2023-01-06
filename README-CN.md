@@ -29,14 +29,14 @@
 我们相信，持续的、高质量的输出是加强知识体系的最好方式。同时，通过共建课程学习是践行区块链精神的一个里程碑。我们将一起，建立一个开放和自由的 web3 世界。
 
 - 了解 Web3 数据
-    - [Web3 领域的数据](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YnLZJjKd6oj7PEFPn5Xtpmex1OuZ5mGR-fqCkBXXM3g)
+    - [1.1 [Beginner] Web3 领域的数据](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YnLZJjKd6oj7PEFPn5Xtpmex1OuZ5mGR-fqCkBXXM3g)
     - Footprint Analytics
           -  如何从 0 创建第一个 0 代码数据分析面板
-    - [Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
-    - [深度对比 Footprint 和 Dune 数据模型](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/HFuE9ldpy3PfO4XynGlEiRNp4G1vI_tg0HOXVWU4btA)
-    - [5分钟快速对比头部链上数据分析工具](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Sm0RxTskbQimmWv19Umnfv90WmR07wcTeBSASft6it0)
-    - [Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
-    - [Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
+    - [1.3 [Intermediate] Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
+    - [1.4 [Intermediate] Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
+    - [1.5 [Intermediate] Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
+    - [1.6 [Advanced] 深度对比 Footprint 和 Dune 数据模型](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/HFuE9ldpy3PfO4XynGlEiRNp4G1vI_tg0HOXVWU4btA)
+    - [1.7 [Advanced] 5分钟快速对比头部链上数据分析工具](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Sm0RxTskbQimmWv19Umnfv90WmR07wcTeBSASft6it0)
     - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
     - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
     - SQL 基础入门
@@ -50,12 +50,12 @@
     - Chains & Raw data
     - Layers
     - 高级分析
-    - [Gas 分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/FYURGBEswcJ-59fHSsDSysvI6wqZdV4t-B1eVUHwN0c)
+    - [2.5 [Intermediate] EVM Gas 分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/FYURGBEswcJ-59fHSsDSysvI6wqZdV4t-B1eVUHwN0c)
 - NFT 分析
     - NFT 分析介绍 (use cases, 类型, metadata)
-    - [5个指标让 NFT 交易更智能](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wlrxjh6vrCA51c_qVDHtI0MD3BFS8z6pd1TFJqLmRPM)
-    - [4个指标分析 NFT 收藏品的供需情况](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/0jmuaRQFCk1adn-hvyGllIBcxMnQtuFlM-Ul9j_wInY)
-    - [Blue Chip](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/tCVAbQRAYsUxC9ojYDAfwTPwP6zVaRNYTCPsHesnPwM)
+    - [3.2 [Intermediate] 5个指标让 NFT 交易更智能](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wlrxjh6vrCA51c_qVDHtI0MD3BFS8z6pd1TFJqLmRPM)
+    - [3.3 [Intermediate] 4个指标分析 NFT 收藏品的供需情况](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/0jmuaRQFCk1adn-hvyGllIBcxMnQtuFlM-Ul9j_wInY)
+    - [3.4 [Intermediate] 是什么让 NFT 项目成为“蓝筹”？](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/tCVAbQRAYsUxC9ojYDAfwTPwP6zVaRNYTCPsHesnPwM)
     - NFT 用户分析
     - NFT Collections
     - Marketplaces and aggregators
@@ -63,27 +63,27 @@
     - Wash trading
 - GameFi 分析
     - GameFi 分析介绍和 Use case
-    - [分析P2E游戏的5个指标](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/E4eLEnK90HqvwU3svFt1pzMKnbmu1BoGPr2XcdFl77M)
+    - [4.2 [Intermediate] 分析P2E游戏的5个指标](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/E4eLEnK90HqvwU3svFt1pzMKnbmu1BoGPr2XcdFl77M)
     - Tokenomics
     - 游戏分析
     - 游戏的用户分析 - 高级版
 - DeFi 分析
-    - [DeFi 入门-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/7IjdO-D4VcB-z9g9wGDmS7ZEr4U0zfC_-XUL0m2HaNw)
-    - [DeFi 入门-2](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YiZ5u2hSQTunoxjyPr5xtK_WH0EWaTOX7kcBFKlJc64)
+    - [5.1 [Beginner] DeFi小白入门最强指南 1.0：一文掌握DeFi最关键知识](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/7IjdO-D4VcB-z9g9wGDmS7ZEr4U0zfC_-XUL0m2HaNw)
+    - [5.2 [Beginner] DeFi小白入门最强指南 2.0：如何赚流动性挖矿的第一桶金？](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YiZ5u2hSQTunoxjyPr5xtK_WH0EWaTOX7kcBFKlJc64)
     - Dexes
     - Lending
     - 稳定币
-    - [Yield Farming](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/lsued2oxR9iedh0ayH-FvKvBaC4uoF2YecGIDplqR9g)
+    - [5.6 [Beginner] DeFi新手新知 ：如何利用流动性挖矿创造被动收入](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/lsued2oxR9iedh0ayH-FvKvBaC4uoF2YecGIDplqR9g)
 - Wallet 分析
     - Wallet 地址分析
-    - [钱包追踪分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/RtfU5EM8gheN3dI04rE3JomE6G6LV41mqlpLfUX4peI)
+    - [6.2 [Intermediate]钱包追踪分析的3个使用案例](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/RtfU5EM8gheN3dI04rE3JomE6G6LV41mqlpLfUX4peI)
 - Footprint Analytics for SQL
-    - [SQL基础-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/IH_A9jdrfKuyPkYnQaHJJBhn-0wOpviogcGzkTie55c)
-    - [SQL基础-2](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/D8WTQT89QYbbkjg46VBvOiMgIjZ1qLeNhpKyEbBK_7Q)
-    - [SQL进阶](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/s44wIZMnHOl8DDLXgtGfA-5dK411OqvktPGLVIHybac)
+    - [7.1 [Intermediate] SQL基础-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/IH_A9jdrfKuyPkYnQaHJJBhn-0wOpviogcGzkTie55c)
+    - [7.2 [Intermediate] SQL基础-2](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/D8WTQT89QYbbkjg46VBvOiMgIjZ1qLeNhpKyEbBK_7Q)
+    - [7.3 [Advanced] Footprint上的常用查询：代币持有者、总供应量、账户余额](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/s44wIZMnHOl8DDLXgtGfA-5dK411OqvktPGLVIHybac)
 - Footprint for Developer
-    - [链上数据 API 的使用场景分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wq9PeqTmH3Jg5EmSkJN3DBXER-z8_YgR215u1Ano1cY)
-    - [Web3 的开发者，如何评估以及选择调用链上数据的解决方案](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/_pLziun8LMNNE-tXRjktvYjAUSOHTHlOOQpS0VHWavo)
-    - [使用 Footprint Analytics, 快速搭建区块链数据应用](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/O3_0NqjiRYp8G5PO-onbg8k-WU8-g3-nexoZ2BnNYrg)
+    - [8.1 [Beginner] 链上数据 API 的使用场景分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wq9PeqTmH3Jg5EmSkJN3DBXER-z8_YgR215u1Ano1cY)
+    - [8.2 [Beginner] Web3 的开发者，如何评估以及选择调用链上数据的解决方案](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/_pLziun8LMNNE-tXRjktvYjAUSOHTHlOOQpS0VHWavo)
+    - [8.3 [Beginner] 使用 Footprint Analytics, 快速搭建区块链数据应用](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/O3_0NqjiRYp8G5PO-onbg8k-WU8-g3-nexoZ2BnNYrg)
     - Footprint Data API 介绍
-    - [免费嵌入 NFT 数据到任何网站或平台](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/BmeeRihsKhqO1M8tMXY4h6lMdCKF6qoRAb4M_t5sO-)
+    - [8.5 [Beginner] 免费嵌入 NFT 数据到任何网站或平台](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/BmeeRihsKhqO1M8tMXY4h6lMdCKF6qoRAb4M_t5sO-)
