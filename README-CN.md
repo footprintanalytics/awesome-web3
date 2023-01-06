@@ -73,14 +73,14 @@
     - Dexes
     - Lending
     - 稳定币
-    - Yield Farming
+    - [Yield Farming](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/lsued2oxR9iedh0ayH-FvKvBaC4uoF2YecGIDplqR9g)
 - Wallet 分析
     - Wallet 地址分析
     - [钱包追踪分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/RtfU5EM8gheN3dI04rE3JomE6G6LV41mqlpLfUX4peI)
 - Footprint Analytics for SQL
     - [SQL基础-1](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/IH_A9jdrfKuyPkYnQaHJJBhn-0wOpviogcGzkTie55c)
-    - SQL基础-2
-    - SQL进阶
+    - [SQL基础-2](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/D8WTQT89QYbbkjg46VBvOiMgIjZ1qLeNhpKyEbBK_7Q)
+    - [SQL进阶](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/s44wIZMnHOl8DDLXgtGfA-5dK411OqvktPGLVIHybac)
 - Footprint for Developer
     - [链上数据 API 的使用场景分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/Wq9PeqTmH3Jg5EmSkJN3DBXER-z8_YgR215u1Ano1cY)
     - [Web3 的开发者，如何评估以及选择调用链上数据的解决方案](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/_pLziun8LMNNE-tXRjktvYjAUSOHTHlOOQpS0VHWavo)
