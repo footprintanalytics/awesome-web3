@@ -69,4 +69,4 @@ We believe that a continuing and high-quality output is the best way to strength
     - [8.5 [Beginner] Embed NFT Data Into Any Website or Platform](https://www.footprint.network/article/6-7-embed-nft-data-into-any-website-or-platform-fp-pwsuthcZ) 
     - [8.6 [Beginner] Three Steps to Get Footprint's Data Api Key](https://www.footprint.network/article/8-6-beginner-three-steps-to-get-footprint-s-data-api-key-g9zSUSqC)
     - [8.7 [Intermediate] How to Get All Transfers of An NFT Collection](https://www.footprint.network/article/8-7-beginner-how-to-get-all-transfers-of-an-nft-collection-fp-ix2To64g)
-    - [8.8 [Intermediate] How to Build Cross-Chain NFT Dapps](https://www.footprint.network/article/8-8-intermediate-how-to-build-cross-chain-nft-dapps-fp-dVUjKTT2)
+    - [8.8 [Intermediate] How to Build Cross-Chain NFT Dapps](https://www.footprint.network/article/8-8-intermediate-how-to-build-cross-chain-nft-dapps-fp-dVUjKTT2) 
