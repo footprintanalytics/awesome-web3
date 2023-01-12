@@ -2,7 +2,7 @@
 
 Describe features.
 
-## What's the difference between this content and similar ones?
+## What's the difference between this resource and similar ones?
 
 Enumerate comparisons.
 
