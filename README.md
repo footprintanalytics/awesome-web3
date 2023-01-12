@@ -70,3 +70,15 @@ We believe that a continuing and high-quality output is the best way to strength
     - [8.6 [Beginner] Three Steps to Get Footprint's Data Api Key](https://www.footprint.network/article/8-6-beginner-three-steps-to-get-footprint-s-data-api-key-g9zSUSqC)
     - [8.7 [Intermediate] How to Get All Transfers of An NFT Collection](https://www.footprint.network/article/8-7-beginner-how-to-get-all-transfers-of-an-nft-collection-fp-ix2To64g)
     - [8.8 [Intermediate] How to Build Cross-Chain NFT Dapps](https://www.footprint.network/article/8-8-intermediate-how-to-build-cross-chain-nft-dapps-fp-dVUjKTT2)
+
+## Contributing
+
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/footprintanalytics/awesome-web3/blob/master/CONTRIBUTING.md) first.
+
+I will keep some pull requests open if I'm not sure whether those contents are awesome, you could [vote for them](https://github.com/footprintanalytics/awesome-web3/pulls) by adding :+1: to them. 
+
+- - -
+
+If you have any question about this opinionated list, do not hesitate to contact me [@Footprint_Data](https://twitter.com/Footprint_Data) on Twitter or open an issue on GitHub.
+
+

@@ -88,3 +88,16 @@
     - [8.3 [Beginner] 使用 Footprint Analytics, 快速搭建区块链数据应用](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/O3_0NqjiRYp8G5PO-onbg8k-WU8-g3-nexoZ2BnNYrg)
     - Footprint Data API 介绍
     - [8.5 [Beginner] 免费嵌入 NFT 数据到任何网站或平台](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/BmeeRihsKhqO1M8tMXY4h6lMdCKF6qoRAb4M_t5sO-)
+
+## 贡献
+
+欢迎你的贡献，贡献前看一下 [贡献指引](https://github.com/footprintanalytics/awesome-web3/blob/master/CONTRIBUTING.md) .
+
+如果我们不确定内容是否很好，会保持一些 PR 开放，你可以 [进行投票](https://github.com/footprintanalytics/awesome-web3/pulls) 点击 :+1: 投票给你想要合并的 PR.
+
+- - -
+
+如果你对这份有意见的名单有任何疑问，请与我联系。 [@Footprint_Data](https://twitter.com/Footprint_Data) ，在Twitter上发表文章或在GitHub上发表问题。
+
+
+
