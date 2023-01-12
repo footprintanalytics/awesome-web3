@@ -40,6 +40,7 @@
     - Data model on the example of Footprint. Part 1: An in-depth explanation of blockchain data model and raw transactions.
     - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
     - SQL 基础入门
+    - [1.10 [Advanced] Footprint 链底层数据质量](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/ks5w4lNjXWJS_zYDN6WTJX7nzxBFvqNHoeRh5Yc1jAk)
     - 公链
     - EVM
     - Solana
