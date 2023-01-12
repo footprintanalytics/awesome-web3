@@ -1,8 +1,8 @@
-## What is this Python project?
+## What is this article ?
 
 Describe features.
 
-## What's the difference between this Python project and similar ones?
+## What's the difference between this article and similar ones?
 
 Enumerate comparisons.
 

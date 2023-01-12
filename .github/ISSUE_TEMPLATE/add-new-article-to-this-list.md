@@ -1,5 +1,5 @@
 ---
-name: Add new library to this list
+name: Add new article to this list
 about: ''
 title: ''
 labels: ''
