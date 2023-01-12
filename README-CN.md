@@ -93,7 +93,7 @@
 
 欢迎你的贡献，贡献前看一下 [贡献指引](https://github.com/footprintanalytics/awesome-web3/blob/master/CONTRIBUTING.md) .
 
-如果我们不确定内容是否很好，会保持一些 PR 开放，你可以 [进行投票](https://github.com/footprintanalytics/awesome-web3/pulls) 点击 :+1: 投票给你想要合并的 PR.
+如果我们不确定内容是否很好，会保持一些 PR 开放，你可以 [进行投票](https://github.com/footprintanalytics/awesome-web3/pulls) 点击 :+1: 投票给你想要合并的 PR. 
 
 - - -
 
