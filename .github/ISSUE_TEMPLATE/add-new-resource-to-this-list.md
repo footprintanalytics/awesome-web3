@@ -1,5 +1,5 @@
 ---
-name: Add new content to this list
+name: Add new resource to this list
 about: ''
 title: ''
 labels: ''
