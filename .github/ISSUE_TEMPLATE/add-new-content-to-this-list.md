@@ -1,5 +1,5 @@
 ---
-name: Add new article to this list
+name: Add new content to this list
 about: ''
 title: ''
 labels: ''

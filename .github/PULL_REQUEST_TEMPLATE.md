@@ -1,8 +1,8 @@
-## What is this article ?
+## What is this content ?
 
 Describe features.
 
-## What's the difference between this article and similar ones?
+## What's the difference between this content and similar ones?
 
 Enumerate comparisons.
 
