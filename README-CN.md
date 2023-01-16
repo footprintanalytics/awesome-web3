@@ -41,6 +41,7 @@
     - Data model on the example of Footprint. Part 2: How to decode data and get abstract data?
     - SQL 基础入门
     - [1.10 [Advanced] Footprint 链底层数据质量](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/ks5w4lNjXWJS_zYDN6WTJX7nzxBFvqNHoeRh5Yc1jAk)
+    - [1.11 [Advanced] 使⽤Footprint Analytics对⽐特币进行数据分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/PBzabXrBnsfqQlVe7QCg735QI-j7hKq-s90KRXhp8CY)
     - 公链
     - EVM
     - Solana
