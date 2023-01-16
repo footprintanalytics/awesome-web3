@@ -59,11 +59,27 @@ We believe that a continuing and high-quality output is the best way to strength
     - [7.1 [Intermediate] SQL Basics Part 1](https://www.footprint.network/article/7-1-intermediate-sql-basics-part-1-fp-Roxp1Iez)
     - [7.2 [Intermediate] SQL Basics Part 2](https://www.footprint.network/article/7-2-intermediate-sql-basics-part-2-fp-KQTp6B8o)
     - [7.3 [Advanced] Common SQL Query On Footprint: Token Holders \ Total Supply \ Token Balance](https://www.footprint.network/article/7-3-advanced-common-sql-query-on-footprint-token-holders-total-supply-token-balance-fp-x6skgDoP)
+    - [7.4 [Advanced] Tracking Crypto Cash Flow Using Stable Coin As An Example](https://www.footprint.network/article/7-4-advanced-tracking-crypto-cash-flow-using-stable-coin-as-an-example-zlWF4MEX)
     
 - Footprint for Developer
     - [8.1 [Beginner] Different API Use Cases For Web3 Developers](https://www.footprint.network/article/6-3-different-api-use-cases-for-web3-developers-cnPuEMRk)
     - [8.2 [Beginner] How to Choose a Data Provider For Your Web3 Project?](https://www.footprint.network/article/6-4-how-to-choose-a-data-provider-for-your-web3-project-fp-o2YLmocR)
     - [8.3 [Beginner] Build Blockchain Data Apps in Minutes with Footprint Analytics](https://www.footprint.network/article/6-5-build-blockchain-data-apps-in-minutes-with-footprint-analytics-6uw1o6TM)
     - [8.4 [Beginner] Build Your Project with Footprint Analytics Data API](https://www.footprint.network/article/6-6-build-your-project-with-footprint-analytics-data-api-fp-utU0s7Ai)
-    - [8.5 [Beginner] Embed NFT Data Into Any Website or Platform](https://www.footprint.network/article/6-7-embed-nft-data-into-any-website-or-platform-fp-pwsuthcZ)
-  
+    - [8.5 [Beginner] Embed NFT Data Into Any Website or Platform](https://www.footprint.network/article/6-7-embed-nft-data-into-any-website-or-platform-fp-pwsuthcZ) 
+    - [8.6 [Beginner] Three Steps to Get Footprint's Data Api Key](https://www.footprint.network/article/8-6-beginner-three-steps-to-get-footprint-s-data-api-key-g9zSUSqC)
+    - [8.7 [Intermediate] How to Get All Transfers of An NFT Collection](https://www.footprint.network/article/8-7-beginner-how-to-get-all-transfers-of-an-nft-collection-fp-ix2To64g)
+    - [8.8 [Intermediate] How to Build Cross-Chain NFT Dapps](https://www.footprint.network/article/8-8-intermediate-how-to-build-cross-chain-nft-dapps-fp-dVUjKTT2)
+
+## Contributing
+
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/footprintanalytics/awesome-web3/blob/master/CONTRIBUTING.md) first.
+
+I will keep some pull requests open if I'm not sure whether those contents are awesome, you could [vote for them](https://github.com/footprintanalytics/awesome-web3/pulls) by adding :+1: to them. 
+
+- - -
+
+If you have any question about this opinionated list, do not hesitate to contact me [@Footprint_Data](https://twitter.com/Footprint_Data) on Twitter or open an issue on GitHub.
+
+
+
