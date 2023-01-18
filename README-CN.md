@@ -30,8 +30,7 @@
 
 - 了解 Web3 数据
     - [1.1 [Beginner] Web3 领域的数据](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/YnLZJjKd6oj7PEFPn5Xtpmex1OuZ5mGR-fqCkBXXM3g)
-    - Footprint Analytics
-          -  如何从 0 创建第一个 0 代码数据分析面板
+    - [1.2.1 [Beginner] 如何创建1个数据看板](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/y601BrV0btBQyX799m7QTMKB3xWa9RuMsrQvK50Sqag)
     - [1.3 [Intermediate] Footprint Analytics 如何帮助区块链研究人员进行数据研究](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-uu-QmMU2_-T-JKOUH1sRQjPY81ygdD0Hbwz_LM1CZ4)
     - [1.4 [Intermediate] Bingo NFT 如何帮助交易者和投资者分析市场](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/wwRip6edz2592a9Or90hbErUBk5ymCotjCJR0kF0H9k)
     - [1.5 [Intermediate] Iceberg-Trino 如何解决链上数据面临的挑战](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/oXalKQPjZzxsuMtDYeMAQTUWqU3P5OEncX-TFTG-yBE)
