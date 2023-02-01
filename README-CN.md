@@ -43,7 +43,7 @@
     - [1.11 [Advanced] 使⽤Footprint Analytics对⽐特币进行数据分析](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/PBzabXrBnsfqQlVe7QCg735QI-j7hKq-s90KRXhp8CY)
     - 公链
     - EVM
-    - Solana
+    - [1.11.3 [Intermediate] Solana in Footprint](https://mirror.xyz/0xf4De160464Fb0fC00F4A062D1913715b7e429Aea/-XOex8KupaJWwBp_y5LNsRT4wfqhV0_nIFngZvZa07U)
     - Wax
     - Dogecoin
 - EVM 分析
