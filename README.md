@@ -36,10 +36,11 @@ We believe that a continuing and high-quality output is the best way to strength
     - [1.5 [Intermediate] Iceberg + Spark + Trino: a Modern Opensource Data Stack For Blockchain](https://www.footprint.network/article/7-1-iceberg-spark-trino-a-modern-opensource-data-stack-for-blockchain-fp-HGZpPm3D)
     - [1.6 [Advanced] Comparing Footprint and Dune Data Models](https://www.footprint.network/article/7-2-comparing-footprint-and-dune-data-models-fp-xpquq6RZ)
     - [1.7 [Advanced] How Are the 3 Top Crypto Analytics Platforms Different?](https://www.footprint.network/article/7-3-how-are-the-3-top-crypto-analytics-platforms-different-Aucc4Pab)
-    - 1.11 Chains
+    - [1.11 [Intermediate] Chains](https://www.footprint.network/article/1-11-intermediate-chains-fp-OiJcsyFM)
       - [1.11.1 [Intermediate] Bitcoin Analysis with Footprint](https://www.footprint.network/article/1-11-1-intermediate-bitcoin-analysis-with-footprint-GoQqcFt5)
   
 - EVM Analysis
+    - [2.1 [Beginner] EVM / Raw Data](https://www.footprint.network/article/2-1-beginner-evm-raw-data-9GyCWvNs)
     - [2.5 [Intermediate] EVM Gas Analysis](https://www.footprint.network/article/2-5-evm-gas-analysis-tr6lTr5i)
 - NFT Analysis
     - [3.1 [Beginner] NFTs](https://www.footprint.network/article/3-1-beginner-nfts-f3YtLx3P)
@@ -73,6 +74,11 @@ We believe that a continuing and high-quality output is the best way to strength
     - [8.6 [Beginner] Three Steps to Get Footprint's Data Api Key](https://www.footprint.network/article/8-6-beginner-three-steps-to-get-footprint-s-data-api-key-g9zSUSqC)
     - [8.7 [Intermediate] How to Get All Transfers of An NFT Collection](https://www.footprint.network/article/8-7-beginner-how-to-get-all-transfers-of-an-nft-collection-fp-ix2To64g)
     - [8.8 [Intermediate] How to Build Cross-Chain NFT Dapps](https://www.footprint.network/article/8-8-intermediate-how-to-build-cross-chain-nft-dapps-fp-dVUjKTT2)
+    - [8.9 [Intermediate] How to Build a Steam-like Platform For Web3 Games Using Footprint Analytics](https://www.footprint.network/article/8-9-intermediate-how-to-build-a-steam-like-platform-for-web3-games-using-footprint-analytics-fp-z35UMzFW)
+    - [8.10 [Advanced] How to Create a Gamer Wallet Profile](https://www.footprint.network/article/8-10-advanced-how-to-create-a-gamer-wallet-profile-fp-sVGpKxJA)
+- Footprint Analytics for crypto investor
+    - [9.1 [Intermediate] Tracking Crypto Cash Flow Using Stable Coin As An Example](https://www.footprint.network/article/9-1-intermediate-tracking-crypto-cash-flow-using-stable-coin-as-an-example-j2QpQDtq)         
+   
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/footprintanalytics/awesome-web3/blob/master/CONTRIBUTING.md) first.
