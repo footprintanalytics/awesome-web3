@@ -36,10 +36,13 @@ We believe that a continuing and high-quality output is the best way to strength
     - [1.5 [Intermediate] Iceberg + Spark + Trino: a Modern Opensource Data Stack For Blockchain](https://www.footprint.network/article/7-1-iceberg-spark-trino-a-modern-opensource-data-stack-for-blockchain-fp-HGZpPm3D)
     - [1.6 [Advanced] Comparing Footprint and Dune Data Models](https://www.footprint.network/article/7-2-comparing-footprint-and-dune-data-models-fp-xpquq6RZ)
     - [1.7 [Advanced] How Are the 3 Top Crypto Analytics Platforms Different?](https://www.footprint.network/article/7-3-how-are-the-3-top-crypto-analytics-platforms-different-Aucc4Pab)
+    - 1.11 Chains
+      - [1.11.1 [Intermediate] Bitcoin Analysis with Footprint](https://www.footprint.network/article/1-11-1-intermediate-bitcoin-analysis-with-footprint-GoQqcFt5)
   
 - EVM Analysis
     - [2.5 [Intermediate] EVM Gas Analysis](https://www.footprint.network/article/2-5-evm-gas-analysis-tr6lTr5i)
 - NFT Analysis
+    - [3.1 [Beginner] NFTs](https://www.footprint.network/article/3-1-beginner-nfts-f3YtLx3P)
     - [3.2 [Intermediate] 5 Indicators For Smarter NFT Trading](https://www.footprint.network/article/3-2-intermediate-5-indicators-for-smarter-nft-trading-fp-ASzLMHlf)
     - [3.3 [Intermediate] 4 Indicators to Analyze the Supply and Demand of NFT Collections](https://www.footprint.network/article/4-indicators-to-analyze-the-supply-and-demand-of-nft-collections-YpCRDpIH)
     - [3.4 [Intermediate] What Makes An NFT Project “blue-chip”?](https://www.footprint.network/article/3-6-what-makes-an-nft-project-blue-chip-CsNciXZy)
@@ -70,7 +73,6 @@ We believe that a continuing and high-quality output is the best way to strength
     - [8.6 [Beginner] Three Steps to Get Footprint's Data Api Key](https://www.footprint.network/article/8-6-beginner-three-steps-to-get-footprint-s-data-api-key-g9zSUSqC)
     - [8.7 [Intermediate] How to Get All Transfers of An NFT Collection](https://www.footprint.network/article/8-7-beginner-how-to-get-all-transfers-of-an-nft-collection-fp-ix2To64g)
     - [8.8 [Intermediate] How to Build Cross-Chain NFT Dapps](https://www.footprint.network/article/8-8-intermediate-how-to-build-cross-chain-nft-dapps-fp-dVUjKTT2)
-
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/footprintanalytics/awesome-web3/blob/master/CONTRIBUTING.md) first.
