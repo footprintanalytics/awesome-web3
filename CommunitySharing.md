@@ -45,6 +45,43 @@ Community Sharing / [中文](https://github.com/footprintanalytics/awesome-web3/
   - 课程资料
     - Youtube 链接 https://www.youtube.com/watch?v=5TQsWhXXnEc
     - PPT 等相关链接 https://footprintanalytics.notion.site/0a4ddec7f66f4d049ad5eaee2ccca4db
+ 
+- **找出决定 GameFi 生死的指标，预判项目趋势（以 STEPN 为例）**
+  - 课程内容
+     - 如何在Web3中挖到最丰厚的利润
+     - 你知道你每天都在看假的数据么
+     - 导向金矿的数据在哪里?怎么看
+     - 如何修炼成稳定获利的数据师
+  - 课程资料
+    - Youtube 链接 https://www.youtube.com/watch?v=NSiKtGr2pjQ
+    - PPT 等相关链接 https://www.footprint.network/@Cao/V1-0-Stepn-SOLANA
+
+- **算法实操！小白入门链上地址追踪与异常**
+  - 课程内容
+     - 行为分析能帮你做什么？
+     - 算法实操，手把手教你地址追踪
+     - 交易分析实战，捕捉套利行为
+  - 课程资料
+    - Youtube 链接 https://www.youtube.com/watch?v=wdzBW8MTkfo
+    - PPT 等相关链接 https://footprintanalytics.notion.site/0a4ddec7f66f4d049ad5eaee2ccca4db
+
+- **寻找下一个机会—VC 视角下的数据追踪与投资决策**
+  - 课程内容
+     - 长期趋势 vs. 短期波动：注意力如何分配？
+     - 技术红利 vs. 情绪价值：你在为什么下注？
+     - 规模指标 vs. 效率指标：如何寻找增长因子？
+  - 课程资料
+    - Youtube 链接 https://www.youtube.com/watch?v=VmV3eiOH3_Q
+    - PPT 等相关链接 https://footprintanalytics.notion.site/VC-b351e9f732ba47e18025c04897283ad2
+
+- **数据科学家入门指南——NFT Wash Trading 建模思路与模型训练**
+  - 课程内容
+     - 什么是 NFT Wash Trading？
+     - 识别 NFT Wash Trading 的算法建模思路与特征构建
+     - 模型训练与分析实战
+  - 课程资料
+    - Youtube 链接 https://www.youtube.com/watch?v=BYrrWVzVol0
+    - PPT 等相关链接 https://docs.google.com/presentation/d/1e5dSDjvRL0v9LpHmz03m_NZ8DwXT7D1On71rmKqh0_M/edit#slide=id.g1beb2b1af8f_0_66
     
 ## 贡献
 
