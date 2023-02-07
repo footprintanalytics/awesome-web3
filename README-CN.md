@@ -1,6 +1,6 @@
 # awesome-web3-data
 
-中文 / [Community Sharing](https://github.com/footprintanalytics/awesome-web3/blob/main/README-CommunitySharing.md) / [English](https://github.com/footprintanalytics/awesome-web3/blob/main/README.md)
+中文 / [Community Sharing](https://github.com/footprintanalytics/awesome-web3/blob/main/CommunitySharing.md) / [English](https://github.com/footprintanalytics/awesome-web3/blob/main/README.md)
 
 <div align="center">
   <div align=center><img src="https://statichk.footprint.network/img_nav_logo_v5.svg" width=" 500 "></div>
