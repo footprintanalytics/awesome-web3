@@ -31,11 +31,13 @@ We believe that a continuing and high-quality output is the best way to strength
 - Understanding Web3 data
     - [1.1 [Beginner] Data in Web3](https://www.footprint.network/article/1-1-data-in-web3-TB7aPlAi)
     - [1.2 [Beginner] Footprint Analytics](https://www.footprint.network/article/1-2-footprint-analytics-kvLDOmUv)
+      - [1.2.1 [Beginner] How to Create a Dashboard](https://www.footprint.network/article/1-2-1-beginner-how-to-create-a-dashboard-8yfahYW4)
     - [1.3 [Intermediate] How Footprint Analytics Helps Blockchain Researchers](https://www.footprint.network/article/7-4-how-footprint-analytics-helps-blockchain-researchers-XzFCDoUe)
     - [1.4 [Intermediate] How Bingo NFT Helps Traders and Investors Analyze the Market](https://www.footprint.network/article/7-5-how-bingo-nft-helps-traders-and-investors-analyze-the-market-2WhSy3Vu)
     - [1.5 [Intermediate] Iceberg + Spark + Trino: a Modern Opensource Data Stack For Blockchain](https://www.footprint.network/article/7-1-iceberg-spark-trino-a-modern-opensource-data-stack-for-blockchain-fp-HGZpPm3D)
     - [1.6 [Advanced] Comparing Footprint and Dune Data Models](https://www.footprint.network/article/7-2-comparing-footprint-and-dune-data-models-fp-xpquq6RZ)
     - [1.7 [Advanced] How Are the 3 Top Crypto Analytics Platforms Different?](https://www.footprint.network/article/7-3-how-are-the-3-top-crypto-analytics-platforms-different-Aucc4Pab)
+    - [1.10 [Advanced] Footprint Data Quality Management For Chain Data](https://www.footprint.network/article/1-10-advanced-footprint-data-quality-management-for-chain-data-fp-kOIqkvAM)
     - [1.11 [Intermediate] Chains](https://www.footprint.network/article/1-11-intermediate-chains-fp-OiJcsyFM)
       - [1.11.1 [Intermediate] Bitcoin Analysis with Footprint](https://www.footprint.network/article/1-11-1-intermediate-bitcoin-analysis-with-footprint-GoQqcFt5)
   
