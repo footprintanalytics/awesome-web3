@@ -49,6 +49,7 @@ We believe that a continuing and high-quality output is the best way to strength
     - [3.2 [Intermediate] 5 Indicators For Smarter NFT Trading](https://www.footprint.network/article/3-2-intermediate-5-indicators-for-smarter-nft-trading-fp-ASzLMHlf)
     - [3.3 [Intermediate] 4 Indicators to Analyze the Supply and Demand of NFT Collections](https://www.footprint.network/article/4-indicators-to-analyze-the-supply-and-demand-of-nft-collections-YpCRDpIH)
     - [3.4 [Intermediate] What Makes An NFT Project “blue-chip”?](https://www.footprint.network/article/3-6-what-makes-an-nft-project-blue-chip-CsNciXZy)
+    - [3.5 [Intermediate] NFT Data on Footprint Analytics](https://www.footprint.network/article/3-5-intermediate-nft-data-on-footprint-analytics-fp-jqikMf2a)
     
 - GameFi Analysis
     - [4.1 [Beginner] GameFi Data Analysis](https://www.footprint.network/article/4-1-gamefi-data-analysis-fp-tdR0TWvk)
@@ -61,6 +62,7 @@ We believe that a continuing and high-quality output is the best way to strength
 - Wallet Analysis
     - [6.1 [Beginner] Wallet Addresses Analysis](https://www.footprint.network/article/4-1-wallet-addresses-analysis-fp-xvdIKGzc)
     - [6.2 [Intermediate] 3 Use Cases for Wallet Tracking Analysis](https://www.footprint.network/article/6-2-intermediate-3-use-cases-for-wallet-tracking-analysis-5e6LP3r6)
+    - [6.3 [Advanced] Blockchain Forensics For the Beginners](https://www.footprint.network/article/6-3-advanced-blockchain-forensics-for-the-beginners-rx0faKOU)
 - Footprint for SQL
     - [7.1 [Intermediate] SQL Basics Part 1](https://www.footprint.network/article/7-1-intermediate-sql-basics-part-1-fp-Roxp1Iez)
     - [7.2 [Intermediate] SQL Basics Part 2](https://www.footprint.network/article/7-2-intermediate-sql-basics-part-2-fp-KQTp6B8o)
