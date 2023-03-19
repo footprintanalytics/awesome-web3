@@ -40,6 +40,7 @@ We believe that a continuing and high-quality output is the best way to strength
     - [1.10 [Advanced] Footprint Data Quality Management For Chain Data](https://www.footprint.network/article/1-10-advanced-footprint-data-quality-management-for-chain-data-fp-kOIqkvAM)
     - [1.11 [Intermediate] Chains](https://www.footprint.network/article/1-11-intermediate-chains-fp-OiJcsyFM)
       - [1.11.1 [Intermediate] Bitcoin Analysis with Footprint](https://www.footprint.network/article/1-11-1-intermediate-bitcoin-analysis-with-footprint-GoQqcFt5)
+    - [1.12 [Intermediate] How to reuse the saved chart result set](https://docs.google.com/document/d/1LYW18cNcnFi-8iQ_uCAnc77xTHQfWHT9euLxqJyUytQ/edit?usp=sharing)
   
 - EVM Analysis
     - [2.1 [Beginner] EVM / Raw Data](https://www.footprint.network/article/2-1-beginner-evm-raw-data-9GyCWvNs)
