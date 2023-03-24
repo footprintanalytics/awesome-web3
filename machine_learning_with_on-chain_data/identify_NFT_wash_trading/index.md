@@ -8,7 +8,7 @@
 
 [Youtube](https://www.youtube.com/watch?v=BYrrWVzVol0)
 
-[Presentations](https://docs.google.com/presentation/d/1e5dSDjvRL0v9LpHmz03m_NZ8DwXT7D1On71rmKqh0_M/edit#slide=id.g1beb2b1af8f_0_66)
+[Presentations](./footprint_NFT_wash_trading.pdf)
 
 [code](./nft_wash_tradingv2.py)
 

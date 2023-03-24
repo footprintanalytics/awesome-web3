@@ -8,8 +8,6 @@
 
 [Youtube](https://www.youtube.com/watch?v=wdzBW8MTkfo)
 
-[Presentations](https://footprintanalytics.notion.site/0a4ddec7f66f4d049ad5eaee2ccca4db)
-
 [code](./suspicious_transaction_detection_v2.ipynb)
 
 
