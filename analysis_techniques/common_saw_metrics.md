@@ -8,7 +8,7 @@
    ```
    SELECT SUM(value)
    FROM bsc_token_transfers
-   WHERE to_address = '0x45c54210128a065de780C4B0Df3d16664f7f859e' AND created_at >= NOW() - INTERVAL 1 DAY
+   WHERE to_address = '0x45c54210128a065de780C4B0Df3d16664f7f859e' AND block_timeatmp >= NOW() - INTERVAL 1 DAY
    ```
 
    This query will return the sum of all transfers to the PancakeSwap pool address `0x45c54210128a065de780C4B0Df3d16664f7f859e` from the past 24 hours.
@@ -18,7 +18,7 @@
    ```
    SELECT SUM(value)
    FROM bsc_token_transfers
-   WHERE from_address = '0x45c54210128a065de780C4B0Df3d16664f7f859e' AND created_at >= NOW() - INTERVAL 1 DAY
+   WHERE from_address = '0x45c54210128a065de780C4B0Df3d16664f7f859e' AND block_timeatmp >= NOW() - INTERVAL 1 DAY
    ```
 
    This query will return the sum of all transfers from the PancakeSwap pool address `0x45c54210128a065de780C4B0Df3d16664f7f859e` to external addresses from the past 24 hours.
