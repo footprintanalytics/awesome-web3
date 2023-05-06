@@ -10,4 +10,5 @@
   - On the chart page, you should now see a filter for the field you specified in step 2. Click on the filter to open the filter box.
   - In the filter box, you can select one or more values for the field. The chart will be automatically updated to display only the data that matches your filter selection.
   - To make the filter optional, use `[[ ]]` instead of `[[ and {{field_name}}]]` in your SQL query. This will display the filter box but allow the user to select "All" to show all data.
+  ![footprint link](https://www.footprint.network/chart/39952?editingOnLoad=true)
   ![field filter](https://user-images.githubusercontent.com/44665855/236614620-d1f647a2-7592-425c-8221-d2eb71c0e7d1.gif)
