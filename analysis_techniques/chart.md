@@ -1,1 +1,13 @@
 # About how to make a chart in Footprint
+
+
+1.  ***How to make a field filter in a chart***
+ To make a field filter in a chart, follow these steps:
+
+  - Open the SQL editor page in your chart.
+  - In the SQL query, use the syntax `[[ and {{field_name}}]]` to create a filter for a specific field in your data. For example, if you wanted to filter on a field called "country", you would add `[[ and {{country}}]]` to your WHERE clause.
+  - Save the changes to your SQL query and run the chart.
+  - On the chart page, you should now see a filter for the field you specified in step 2. Click on the filter to open the filter box.
+  - In the filter box, you can select one or more values for the field. The chart will be automatically updated to display only the data that matches your filter selection.
+  - To make the filter optional, use `[[ ]]` instead of `[[ and {{field_name}}]]` in your SQL query. This will display the filter box but allow the user to select "All" to show all data.
+  ![field filter](https://user-images.githubusercontent.com/44665855/236614620-d1f647a2-7592-425c-8221-d2eb71c0e7d1.gif)
