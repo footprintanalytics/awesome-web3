@@ -12,3 +12,13 @@
   - To make the filter optional, use `[[ ]]` instead of `[[ and {{field_name}}]]` in your SQL query. This will display the filter box but allow the user to select "All" to show all data.
   ![footprint link](https://www.footprint.network/chart/39952?editingOnLoad=true)
   ![field filter](https://user-images.githubusercontent.com/44665855/236614620-d1f647a2-7592-425c-8221-d2eb71c0e7d1.gif)
+  
+2. ***How to set a chart link***
+
+ - **Save the chart.**
+ - **Choose the field that you want to add a clickable link to.**
+ - **Select "Link" as the display type.**
+ - **Paste the link you want to redirect to into the "Link URL" text box {{variable}}.**
+ ![footprint link](https://www.footprint.network/@0xAlina/Game-Ranking)
+ 
+![set link](https://github.com/footprintanalytics/awesome-web3/assets/44665855/5e4ba597-665d-43a2-9437-56d6ebb38e17)
