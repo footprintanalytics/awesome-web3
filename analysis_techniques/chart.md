@@ -1,6 +1,5 @@
 # About how to make a chart in Footprint
-
-
+### make chart github link https://github.com/footprintanalytics/awesome-web3/blob/main/analysis_techniques/chart.md
 1.  ***How to make a field filter in a chart***
  To make a field filter in a chart, follow these steps:
 
