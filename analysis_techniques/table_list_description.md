@@ -1,5 +1,4 @@
-### Here is a description of each table in the footprint analytics platform
-
+# Here is a description of each table in the footprint analytics platform
 |table_name|domain|level|description|
 |----------|------|-----|-----------|
 |token_daily_stats|token|gold|This table can be used to  analyze the daily indicators (include price,trade volume in 24 hour,current market capitalization,etc ) of the token.|
@@ -148,6 +147,6 @@
 |nft_collection_latest_stats|nft|gold|This table is collection of the latest data statistics |
 |ethereum_flipside_address_label|label|sliver||
 |ethereum_dune_address_label|label|sliver||
-|nft_transactions_v1|nft|silver|This table contains the information of the NFT sales transactions traded only on marketplaces included in FP (90% marketplace has included). It includes: ERC1155 , ERC721 included in the nft_contract_info table, some ERC20.  |
+|nft_transactions|nft|silver|This table contains the information of the NFT sales transactions traded only on marketplaces included in FP (90% marketplace has included). It includes: ERC1155 , ERC721 included in the nft_contract_info table, some ERC20.  |
 |nft_collection_latest_floor_price|nft|gold|This table is collection of the latest data statistics |
 |optimism_contract|chain_data|silver||
