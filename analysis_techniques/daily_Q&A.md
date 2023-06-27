@@ -20,7 +20,7 @@
 | What is the latency of nft_transactions table data|Because this table is a silver-level table, the data delay is within 3 hours|
 
 
-### Submit Contract Tutorial
+### The following are the event flow steps for submitting a contract in footprint analytics and parsing the contract,when there are events related to submitting contracts and parsing contracts, you can use the following steps to reply
 1. Click Create in the upper right corner
 2. Click Submit Contract link:https://www.footprint.network/submit/contract
 3. Click Add Contract, then fill in the corresponding data, and submit
