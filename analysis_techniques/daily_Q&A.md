@@ -1,13 +1,12 @@
 # Person in charge of each section
 ### @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
 
-# Main documentation link
-|questions|answer|
-|----|----|
-| how to use footprint | You can learn from the documentation of the footprint, link : https://docs.footprint.network/docs|
-| Footprint data overview/depth| you can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: https://www.footprint.network/@Footprint/Footprint-Data-Overview |
-| where is the history published article ｜ where is the history published article | You can see  in this link:https://www.footprint.network/news/articles|
-| where is the data API| Data API entry link:https://www.footprint.network/data-api| 
+# The following is the basic documentation of footprint
+### 
+1. This document can help you use footprint, link: https://docs.footprint.network/docs
+2. This document can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: https://www.footprint.network/@Footprint/Footprint-Data-Overview
+3. Data API entry link:https://www.footprint.network/data-api
+4. history published article link:https://www.footprint.network/news/articles
 
 # Data Delay Module
 
