@@ -1,4 +1,6 @@
 ### The following table data records the field, level, and description of each table
+
+
 | table_name                             | domain            | level  | description                                                  |
 | -------------------------------------- | ----------------- | ------ | ------------------------------------------------------------ |
 | token_daily_stats                      | token             | gold   | This table can be used to  analyze the daily indicators (include price,trade volume in 24 hour,current market capitalization,etc ) of the token. |
@@ -14,7 +16,7 @@
 | gamefi_protocol_info                   | protocol          | silver | This table shows information of gamefi protocol.             |
 | protocol_token_transfers               | protocol          | silver | This table displays the contracts and tokens corresponding to GameFi protocols collected by Footprint. It filters transfer records in chain_token_transfer that interact with the contracts. |
 | nft_collection_latest_floor_price      | nft               | gold   | This table is collection of the latest data statistics       |
-| nft_transactions_v1                    | nft               | silver | This table contains the information of the NFT sales transactions traded only on marketplaces included in FP (90% marketplace has included). It includes: ERC1155 , ERC721 included in the nft_contract_info table, some ERC20. |
+| nft_transactions                   | nft               | silver | This table contains the information of the NFT sales transactions traded only on marketplaces included in FP (90% marketplace has included). It includes: ERC1155 , ERC721 included in the nft_contract_info table, some ERC20. |
 | nft_collection_latest_stats            | nft               | gold   | This table is collection of the latest data statistics       |
 | nft_mint_transactions                  | nft               | silver |                                                              |
 | nft_collection_transfers_daily_stats   | nft               | gold   | This table is based on nft_transfers aggregating the rows by day. Table includes: collection dimension of holders , transactions, mint and burn as of each day. |
@@ -150,4 +152,3 @@
 | ens_latest_resolver                    | address           | silver | This table shows the latest resolver of ens.                 |
 | solana_account_mapping                 | address           | silver | This table contains the mapping of token account with wallet at Solana |
 | address_latest_balance                 | address           | gold   | This table shows ERC20 & ERC721 & ERC1155 token & native token balance of partial wallets. |
-
