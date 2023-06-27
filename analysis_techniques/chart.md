@@ -1,7 +1,6 @@
 # About how to make a chart in Footprint
 ### make chart github link https://github.com/footprintanalytics/awesome-web3/blob/main/analysis_techniques/chart.md
-1.  ***How to make a field filter in a chart***
- To make a field filter in a chart, follow these steps:
+1.  ***How to make a field filter in a chart ***
 
   - Open the SQL editor page in your chart.
   - In the SQL query, use the syntax `[[ and {{field_name}}]]` to create a filter for a specific field in your data. For example, if you wanted to filter on a field called "country", you would add `[[ and {{country}}]]` to your WHERE clause.
