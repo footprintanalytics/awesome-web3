@@ -1,4 +1,4 @@
-# Person in charge of each section
+![image](https://github.com/footprintanalytics/awesome-web3/assets/44665855/3ac587dd-b084-4780-a4af-6c7c5ee00760)# Person in charge of each section
 ### @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
 
 # Main documentation link
