@@ -1,4 +1,4 @@
-![image](https://github.com/footprintanalytics/awesome-web3/assets/44665855/3ac587dd-b084-4780-a4af-6c7c5ee00760)# Person in charge of each section
+# Person in charge of each section
 ### @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
 
 # Main documentation link
@@ -8,6 +8,7 @@
 | Footprint data overview/depth| you can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: https://www.footprint.network/@Footprint/Footprint-Data-Overview |
 | where is the history published article ｜ where is the history published article | You can see  in this link:https://www.footprint.network/news/articles|
 | where is the data API| Data API entry link:https://www.footprint.network/data-api| 
+
 # Data Delay Module
 
 ### The data delay of all gold-level tables is one day, the data delay of nft_sliver level is 3 hours, the data delay of protocol model is one day, and the rozen-level data delays are mostly 5 minutes
@@ -19,3 +20,9 @@
 | What is the latency of nft_transactions table data|Because this table is a silver-level table, the data delay is within 3 hours|
 
 
+### Submit Contract Tutorial
+1. Click Create in the upper right corner
+2. Click Submit Contract link:https://www.footprint.network/submit/contract
+3. Click Add Contract, then fill in the corresponding data, and submit
+4. After completing the above three steps, wait for personnel review. After the review is passed, data will appear in the corresponding comm_{chain}_decoded_events table the next day
+5. If the ABI of the contract data you want to parse is through a proxy, then you need to use this page to submit the contract link:https://www.footprint.network/submit/contract/add-v1
