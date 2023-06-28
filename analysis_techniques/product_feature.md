@@ -18,7 +18,7 @@
 4. Footprint analytics historical report display page link : https://www.footprint.network/news/reports
 
 # Data frame history
-### The data lake is introduced, which is a new type of structured and unstructured data storage. The data lake is very suitable for the storage of data on the chain, because the data on the chain has a wide range of formats, from unstructured raw data to Structured abstract data are the highlights of Footprint Analytics.
+### The data lake is introduced, which is a new type of structured and unstructured data storage. The data lake is very suitable for the storage of data on the chain, because the data on the chain has a wide range of formats, from unstructured raw data to Structured abstract data are the highlights of Footprint Analytics.The footprint uses Trino as the underlying database
 Iceberg can be very well integrated with calculation engines such as Spark, Flink, Trino, etc. We can choose the most suitable calculation method for each of our indicators, and choose Spark;
 For real-time computing, choose Flink;
 StarRocks - Simple ETL tasks that can be done using SQL, choose Trino.
