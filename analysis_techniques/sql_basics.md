@@ -1,8 +1,7 @@
 
 # SQL Basics Part 1
-
+### Footprint analytics uses the framework of iceberg + trino, so the sql syntax used needs to be based on trino sql syntax. This is the [link](https://trino.io/docs/current/functions.html) of trino sql syntax documentation
 ### Basic Introduction.
-
 #### 1. What is a data lake?
 
 A data lake is a large repository that stores an enterprise's wide variety of raw data, which is available for access, processing, analysis, and transfer. A data lake is a system or repository of data stored in its natural format, usually as an object blob or file. A data lake is typically a single store for all of an enterprise's data, including raw copies of source system data, as well as transformed data for tasks such as reporting, visualization, analysis, and machine learning. Data lakes can include structured data from relational databases (rows and columns), semi-structured data (CSV, logs, XML, JSON), unstructured data (emails, documents, PDFs) and binary data (images, audio, video)
