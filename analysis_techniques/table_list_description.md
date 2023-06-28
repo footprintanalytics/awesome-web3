@@ -1,4 +1,4 @@
-### The following table data records the field, level, and description of each table
+### The following table data records the field, level, and description of each table,
 
 
 | table_name                             | domain            | level  | description                                                  |
@@ -31,18 +31,10 @@
 | nft_collection_daily_stats             | nft               | gold   | This table shows notable statistics of NFT collections (including top 6000+ collections in Ethereum, Solana and BNB Chain). The table contains daily summary data after filtering suspicious wash trades grouped by collection. Metrics include price, volume, fee, market cap, etc. |
 | nft_transactions                       | nft               | silver | This table contains the information of the NFT sales transactions traded only on marketplaces included in FP (90% marketplace has included). It includes: ERC1155 , ERC721 included in the nft_contract_info table, some ERC20. |
 | address_tag                            | label             | sliver | This table shows tags of the transparent addresses.          |
-| ethereum_dune_address_label            | label             | sliver |                                                              |
 | entity_tag                             | label             | silver | This table shows tag for entity.                             |
-| ethereum_flipside_address_label        | label             | sliver |                                                              |
 | gamefi_protocol_daily_stats            | gamefi            | gold   | This table can be used to analyze the daily indicators (e.g. transaction volume, transaction number, transaction user number) of the GameFi. |
 | token_price_5min                       | export_chain_data | silver |                                                              |
-| logs                                   | export_chain_data | bronze |                                                              |
-| transactions                           | export_chain_data | bronze | This table contains a set of all transactions from all blocks, and contains a block identifier to get associated block-specific information associated with each transaction. |
-| blocks                                 | export_chain_data | bronze | This table contains a set of all blocks in the blockchain and their attributes. |
 | token_transfers                        | export_chain_data | bronze |                                                              |
-| traces                                 | export_chain_data | bronze | This table contains a set of all traces in blocks, Represents the function call path that can track the transaction, More detail https://openethereum.github.io/JSONRPC-trace-module. |
-| contract_abi_info                      | export_chain_data | silver |                                                              |
-| wax_token_transfers                    | chain_data        | bronze | Contains the subset of token_transfer event's transactions and has further processed and denormalized the data to make it easier to consume for analysis of token transfer events. |
 | dfk_token_transfers                    | chain_data        | bronze | Contains the subset of token_transfer event's transactions and has further processed and denormalized the data to make it easier to consume for analysis of token transfer events. |
 | harmony_token_transfers                | chain_data        | bronze | Contains the subset of token_transfer event's transactions and has further processed and denormalized the data to make it easier to consume for analysis of token transfer events. |
 | moonriver_token_transfers              | chain_data        | bronze | Contains the subset of token_transfer event's transactions and has further processed and denormalized the data to make it easier to consume for analysis of token transfer events. |
