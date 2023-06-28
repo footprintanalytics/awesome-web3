@@ -16,6 +16,7 @@ Disclaimer: All data and articles on Footprint Analytics are for informational p
 9. Footprint analytics telegram link: https://t.me/joinchat/4-ocuURAr2thODFh
 10. Footprint analytics twitter link: https://twitter.com/Footprint_Data
 11. Official email address of Footprint analytics cooperation , email: partners@footprint.network
+12. @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
 
 
 ## Home page
