@@ -144,7 +144,7 @@
 | address_latest_balance                 | address           | gold   | This table shows ERC20 & ERC721 & ERC1155 token & native token balance of partial wallets. |
 
 
-### The table below is the meaning of each field in each table of footprint analytics,For example, the number_of_holders field in the nft_collection_daily_stats table, the number of holders per collection per day
+#### The table below is the meaning of each field in each table of footprint analytics,For example, the number_of_holders field in the nft_collection_daily_stats table, the number of holders per collection per day
 |table_name|field|description|field_type|
 |----------|-----|-----------|----------|
 |address_latest_balance|amount|Wallet address hold amount|double|
