@@ -10,6 +10,7 @@ title:  "Training of GPT model-Chain Data"
 
 ```mermaid
 erDiagram
+
     nft_transfers {
         varchar collection_contract_address FK
         timestamp block_timestamp  
@@ -24,9 +25,9 @@ erDiagram
         bigint amount_raw  
         varchar internal_index  
         varchar  chain
-        varchar transfer_type  
+        varchar  transfer_type 
     }
-    
+
     nft_collection_info {
         varchar chain
         varchar collection_slug PK
@@ -284,5 +285,10 @@ where t.block_timestamp >= date_parse('2022-01-01', '%Y-%m-%d')
 group by 1 
 order by 2 desc
 limit 10
+```
+
+#### How to get the number of nft holders
+```sql
+
 ```
 
