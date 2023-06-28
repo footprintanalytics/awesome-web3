@@ -1,6 +1,4 @@
-### The following table data records the field, level, and description of each table,
-
-
+### The following table data records the field, level, and description of each table.For example, the domain of the table named token_daily_stats is token, the level is gold level, and the description of the table is This table can be used to analyze the daily indicators (include price, trade volume in 24 hour, current market capitalization, etc.
 | table_name                             | domain            | level  | description                                                  |
 | -------------------------------------- | ----------------- | ------ | ------------------------------------------------------------ |
 | token_daily_stats                      | token             | gold   | This table can be used to  analyze the daily indicators (include price,trade volume in 24 hour,current market capitalization,etc ) of the token. |
