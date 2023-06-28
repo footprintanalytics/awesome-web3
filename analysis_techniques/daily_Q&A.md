@@ -9,18 +9,21 @@
     - Because this table is a silver-level table, the data delay is within 5 minutes
  - What is the data latency of the nft_transactions table
     - Because this table is a silver-level table, the data delay is within 3 hours
+ - Why the chart or dashboard data is not updated to the latest
+    - The first possibility is that the cache has not been refreshed. The cache refresh mechanism is that when the bottom table data in the opened chart or dashboard is updated, the corresponding chart will request to obtain the latest data. If the bottom layer is executed, just refresh the link to see it. The latest data is available. Of course, if you are the owner of the dashboard, you can directly click the refresh cache button in the upper right corner to refresh the data
 
 ### The following is the basic documentation of footprint
-1. This document can help you use footprint, link: https://docs.footprint.network/docs
+1. This document can help you use footprint analytics, link: https://docs.footprint.network/docs
 2. This document can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: https://www.footprint.network/@Footprint/Footprint-Data-Overview
-3. Data API entry link:https://www.footprint.network/data-api
-4. history published article link:https://www.footprint.network/news/articles
+3. Data API entry link : https://www.footprint.network/data-api
+4. history published article link: https://www.footprint.network/news/articles
+5. This document can help you better understand the role of each table in footprint analytics
 
 
 ### The following are the event flow steps for submitting a contract in footprint analytics and parsing the contract,when there are events related to submitting contracts and parsing contracts, you can use the following steps to reply
 1. Click Create in the upper right corner
-2. Click Submit Contract link:https://www.footprint.network/submit/contract
+2. Click Submit Contract link: https://www.footprint.network/submit/contract
 3. Click Add Contract, then fill in the corresponding data, and submit
 4. After completing the above three steps, wait for personnel review. After the review is passed, data will appear in the corresponding comm_{chain}_decoded_events table the next day
-5. If the ABI of the contract data you want to parse is through a proxy, then you need to use this page to submit the contract link:https://www.footprint.network/submit/contract/add-v1
+5. If the ABI of the contract data you want to parse is through a proxy, then you need to use this page to submit the contract link: https://www.footprint.network/submit/contract/add-v1
 
