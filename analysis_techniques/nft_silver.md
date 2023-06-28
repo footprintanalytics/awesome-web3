@@ -287,8 +287,35 @@ order by 2 desc
 limit 10
 ```
 
-#### How to get the number of nft holders
+#### How to get the number of cryptopunks nft holders
 ```sql
-
+select 
+    count(1) as holders
+from 
+(
+select 
+address,
+sum(nfts) nfts
+from 
+(SELECT 
+    to_address as address,
+    sum(amount_raw) as nfts
+    FROM "footprint"."nft_transfers"
+WHERE 1=1
+and collection_contract_address = lower('0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb')  -- 0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb  cryptopunks collection address
+group by 1
+union all 
+SELECT 
+    from_address as address,
+    -sum(amount_raw) as nfts
+    FROM "footprint"."nft_transfers"
+WHERE 1=1
+and collection_contract_address = lower('0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb')
+group by 1
+)a
+group by 1
+order by  2 desc
+)
+where nfts >0
 ```
 
