@@ -356,7 +356,6 @@ Syntax Description
   
   ```
 
-  
 
 ![img](https://lh6.googleusercontent.com/TUd-18rJn9_48dvgATq5e2T7fj0Blc7WSqOtlM_sEgllLgAN6d331x_ByZeilm1ZWebC4TsA2A09iyQUTet6Md6L-6y7lBFg1UkzTtGZcMtUOytJ0cEoJTDqyzhDLC-HaT4wSCSFSijSQACdHqGIz-c)
 
@@ -374,8 +373,8 @@ Syntax Description
 
 - Syntax
 
-*SELECT column_name(s) FROM table_name1*
-
-*UNION ALL*
-
-*SELECT column_name(s) FROM table_name2*
+```sql
+SELECT column_name(s) FROM table_name1
+UNION ALL*
+SELECT column_name(s) FROM table_name2
+```
