@@ -1,6 +1,3 @@
-### Person in charge of each section
-### @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
-
 # User rights
 ### Users in Footprint Analytics can copy other people's charts and dashboards. Dashboards and charts have a caching mechanism, and the dashboard can only be refreshed by themselves. Of course, if other people open a dashboard that is not their own, the chart under the dashboard is referenced. If there is data update in the table, the underlying refresh mechanism will trigger to obtain the latest data of this chart. After the refresh is completed, the original link needs to be refreshed to see the refreshed data
 
