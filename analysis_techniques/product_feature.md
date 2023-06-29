@@ -1,3 +1,6 @@
+---
+Product Feature
+---
 ## Product
 ### product description
 1. Footprint Analytics is a data platform blending web2 and web3 data with abstractions. We help analysts, builders, and investors turn blockchain data into insights with accessible visualization tools and a powerful multi-chain API across 20+ chains for NFTs, GameFi, and DeFi. We also provide Footprint Growth Analytics to help with effective growth in GameFi and any web3 projects.
@@ -32,6 +35,6 @@ Disclaimer: All data and articles on Footprint Analytics are for informational p
 Iceberg can be very well integrated with calculation engines such as Spark, Flink, Trino, etc. We can choose the most suitable calculation method for each of our indicators, and choose Spark;
 For real-time computing, choose Flink;
 StarRocks - Simple ETL tasks that can be done using SQL, choose Trino.
-The current footprint is iterated through three versions, from Bigquery to OLAP to the current Iceberg + Trino,
-The underlying database of footprint analytics uses trino + iceberge. If you need to write sql, you need trino's https://trino.io/docs/current/functions.html syntax to query data
+The current footprint analytics platform has iterated three versions, from Bigquery to OLAP to the current Iceberg + Trino, and now uses the syntax of trino
+The underlying database for footprint analysis uses trino + Iceberge. If you need to write sql, you need trino's https://trino.io/docs/current/functions.html syntax to query data
 
