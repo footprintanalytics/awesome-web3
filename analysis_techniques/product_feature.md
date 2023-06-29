@@ -5,7 +5,7 @@ Disclaimer: All data and articles on Footprint Analytics are for informational p
 
 ### Documentation link
 ### The following is the basic documentation of footprint,
-- This document can help you use footprint analytics, link: [footprint analytics docs](https://docs.footprint.network/docs) 
+- This document can help you use footprint analytics, document link: [footprint analytics docs](https://docs.footprint.network/docs) 
 - This document can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: [Footprint-Data-Overview](https://www.footprint.network/@Footprint/Footprint-Data-Overview) 
 -  Data API entry link : [footprint analytics Data API](https://www.footprint.network/data-api) 
 -  history published article link: [Footprint analytics article](https://www.footprint.network/news/articles)
