@@ -1,5 +1,5 @@
 
-## SQL Basics Part 1
+# SQL Basics Part 1
 ### Footprint analytics uses the framework of iceberg + trino, so the sql syntax used needs to be based on trino sql syntax. This is the [link](https://trino.io/docs/current/functions.html) of trino sql syntax documentation
 ### Basic Introduction.
 #### 1. What is a data lake?
