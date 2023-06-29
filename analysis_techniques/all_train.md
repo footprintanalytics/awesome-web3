@@ -268,9 +268,29 @@ erDiagram
         double market_cap 
     }
 
-
+  nft_orders {
+        varchar chain
+        varchar collection_contract_address PK
+        varchar nft_token_id
+        varchar marketplace_slug
+        varchar order_id
+        timestamp created_at
+        double native_amount
+        varchar amount_currency
+        varchar amount_currency_contract_address
+        timestamp order_created_at
+        timestamp order_expired_at
+        varchar buyer_address
+        varchar seller_address
+        varchar status
+        varchar type
+        varchar created_by
+        timestamp updated_at
+        varchar updated_by
+    }
     nft_collection_info ||--o|  nft_transactions: contains
     nft_collection_info ||--o|  nft_collection_daily_stats : has
+    nft_orders ||--o|  nft_collection_daily_stats : has
     nft_transactions ||--|{  transaction_entity_tag: contains    
     protocol_info ||--o| protocol_transactions : has
     protocol_info ||--o| gamefi_protocol_daily_stats : has
@@ -638,6 +658,38 @@ and "nft_collection_daily_stats"."on_date" >=date_add('day',-90,current_date)
 GROUP BY "nft_collection_daily_stats"."on_date"
 ORDER BY "nft_collection_daily_stats"."on_date" DESC
 LIMIT 2000
+```
+
+#### To query nft holders, you need to take the nft_transfers table and transfer in and out of the corresponding collection according to each user. When the number of transfers minus the number of transfers is greater than 0, the user is considered to hold the nft of this collection, such as the following cryptopunks The holding user example
+```sql
+select 
+    count(1) as holders
+from 
+(
+select 
+address,
+sum(nfts) nfts
+from 
+(SELECT 
+    to_address as address,
+    sum(amount_raw) as nfts
+    FROM "footprint"."nft_transfers"
+WHERE 1=1
+and collection_contract_address = lower('0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb')  -- 0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb  cryptopunks collection address
+group by 1
+union all 
+SELECT 
+    from_address as address,
+    -sum(amount_raw) as nfts
+    FROM "footprint"."nft_transfers"
+WHERE 1=1
+and collection_contract_address = lower('0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb')
+group by 1
+)a
+group by 1
+order by  2 desc
+)
+where nfts >0
 ```
 
 #### query top 10 collections by Market Cap in last 90 days
