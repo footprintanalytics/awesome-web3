@@ -4,19 +4,19 @@
 Disclaimer: All data and articles on Footprint Analytics are for informational purposes only, and do not constitute any investment advice.
 
 ### Documentation link
-### The following is the basic documentation of footprint
-1. This document can help you use footprint analytics, link: [footprint analytics docs](https://docs.footprint.network/docs) 
-2. This document can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: [Footprint-Data-Overview](https://www.footprint.network/@Footprint/Footprint-Data-Overview) 
-3. Data API entry link : [footprint analytics Data API](https://www.footprint.network/data-api) 
-4. history published article link: [Footprint analytics article](https://www.footprint.network/news/articles)
-5. This document can help you better understand the role of each table in footprint analytics link: [Footprint-Datasets-Data-Dictionary](https://www.footprint.network/@Footprint/Footprint-Datasets-Data-Dictionary) 
-6. Footprint website link: [Website](https://www.footprint.network)
-7. Footprint analytics Pricing page link: [Pricing](https://www.footprint.network/pricing)
-8. Footprint analytics Discord link: [Discord](https://discord.com/invite/3HYaR6USM7)
-9. Footprint analytics telegram link: [Telegram](https://t.me/joinchat/4-ocuURAr2thODFh)
-10. Footprint analytics twitter link: [Twitter](https://twitter.com/Footprint_Data)
-11. Footprint analytics can be contacted at partners@footprint.network
-12. @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
+### The following is the basic documentation of footprint,
+- This document can help you use footprint analytics, link: [footprint analytics docs](https://docs.footprint.network/docs) 
+- This document can clearly see the areas, chains, platforms, and contracts covered by the footprint in this link: [Footprint-Data-Overview](https://www.footprint.network/@Footprint/Footprint-Data-Overview) 
+-  Data API entry link : [footprint analytics Data API](https://www.footprint.network/data-api) 
+-  history published article link: [Footprint analytics article](https://www.footprint.network/news/articles)
+-  This document can help you better understand the role of each table in footprint analytics link: [Footprint-Datasets-Data-Dictionary](https://www.footprint.network/@Footprint/Footprint-Datasets-Data-Dictionary) 
+-  Footprint website link: [Website](https://www.footprint.network)
+-  Footprint analytics Pricing page link: [Pricing](https://www.footprint.network/pricing)
+-  Footprint analytics Discord link: [Discord](https://discord.com/invite/3HYaR6USM7)
+-  Footprint analytics telegram link: [Telegram](https://t.me/joinchat/4-ocuURAr2thODFh)
+-  Footprint analytics twitter link: [Twitter](https://twitter.com/Footprint_Data)
+-  Footprint analytics can be contacted at partners@footprint.network
+-  @lesley8964 is a colleague in charge of the market. For market-related cooperation, you can contact DM@lesley8964. @jimmytf is in charge of business cooperation. For related cooperation, you can DM @jimmytf. @Hige#3602 is technical support. For data-related issues, you can directly contact him
 
 
 ### Home page
