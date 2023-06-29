@@ -287,7 +287,7 @@ order by 2 desc
 limit 10
 ```
 
-#### How to get the number of cryptopunks nft holders
+#### To query nft holders, you need to take the nft_transfers table and transfer in and out of the corresponding collection according to each user. When the number of transfers minus the number of transfers is greater than 0, the user is considered to hold the nft of this collection, such as the following cryptopunks The holding user example
 ```sql
 select 
     count(1) as holders
