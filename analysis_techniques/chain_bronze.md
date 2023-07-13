@@ -154,6 +154,7 @@ erDiagram
 - **receipt_effective_gas_price**: The receipt effective gas price is the actual gas price calculated by the miner when they include the transaction in a block. After a transaction is confirmed, Ethereum generates a receipt that contains detailed information about the transaction, including the actual gas used and the receipt effective gas price. The receipt effective gas price is usually higher than the gas price set in the transaction because there may be competition among miners to include transactions in a block, and the actual gas used may exceed the estimated amount. In this case, the miner needs to recalculate the gas price.
 - **receipt_gas_used**: The receipt gas used is the actual amount of gas consumed during the execution of a transaction. It is calculated by the Ethereum network based on the results of the transaction.
 - **transaction_fee calculation formula**: `transaction_fee = receipt_effective_gas_price * receipt_gas_used`
+- **amount_row** : erc20 token transfer amount (gwei unit)/nft token id of collection transfer
 
 ### Actual Average Transaction Fee
 
