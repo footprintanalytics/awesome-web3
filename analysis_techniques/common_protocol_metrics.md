@@ -30,30 +30,30 @@ erDiagram
     }
     
     protocol_address_retention_monthly {
- varchar cohort
- varchar protocol_slug
- varchar "chain"
- varchar protocol_name
- integer number_of_new_users
- double month_1
- double month_2
- double month_3
- double month_4
- double month_5
- double month_6
- double month_7
- double month_8
- double month_9
- double month_10
- double month_11
- double month_12
- date start_date
- date end_date
+	 varchar cohort
+	 varchar protocol_slug
+	 varchar chain
+	 varchar protocol_name
+	 integer number_of_new_users
+	 double month_1
+	 double month_2
+	 double month_3
+	 double month_4
+	 double month_5
+	 double month_6
+	 double month_7
+	 double month_8
+	 double month_9
+	 double month_10
+	 double month_11
+	 double month_12
+	 date start_date
+	 date end_date
     }
 
 protocol_daily_stats {
  date on_date
- varchar "chain"
+ varchar chain
  varchar protocol_slug
  varchar protocol_name
  integer number_of_active_users
@@ -90,7 +90,7 @@ protocol_daily_stats {
 ud_defi_fundraising_stats {
 varchar id
  varchar fundraising_rounds
- timestamp "day"
+ timestamp day
  double amount
  varchar investor
  varchar protocol_slug
@@ -103,7 +103,7 @@ varchar id
  varchar description
  double valuation
  varchar announcement
- varchar "unique"
+ varchar unique
  varchar round
  timestamp updated_at
  timestamp created_at
