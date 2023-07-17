@@ -1,3 +1,119 @@
+---
+title:  "Training of GPT model-Protocol Data"
+
+---
+
+# Data Overview 
+
+### Data Relationship
+
+```mermaid
+erDiagram
+    protocol_info {
+      varchar chain pk
+      varchar protocol_slug pk
+      varchar protocol_name
+      varchar protocol_type
+      varchar protocol_sub_type
+      varchar logo
+    }
+    
+    contract_info {
+      varchar chain pk
+      varchar contract_address pk
+      varchar contract_name
+      varchar protocol_slug
+      varchar standard
+      varchar deployer_address
+      timestamp deploy_block_timestamp
+      integer deploy_block_number
+    }
+    
+    protocol_address_retention_monthly {
+ varchar cohort
+ varchar protocol_slug
+ varchar "chain"
+ varchar protocol_name
+ integer number_of_new_users
+ double month_1
+ double month_2
+ double month_3
+ double month_4
+ double month_5
+ double month_6
+ double month_7
+ double month_8
+ double month_9
+ double month_10
+ double month_11
+ double month_12
+ date start_date
+ date end_date
+    }
+
+protocol_daily_stats {
+ date on_date
+ varchar "chain"
+ varchar protocol_slug
+ varchar protocol_name
+ integer number_of_active_users
+ integer number_of_new_users
+ integer number_of_total_users
+ double new_users_1d_pct_change
+ double new_users_7d_pct_change
+ double new_users_30d_pct_change
+ double new_users_180d_pct_change
+ double new_users_360d_pct_change
+ double active_users_1d_pct_change
+ double active_users_7d_pct_change
+ double active_users_30d_pct_change
+ double active_users_180d_pct_change
+ double active_users_360d_pct_change
+ double volume
+ double number_of_transactions
+    }
+
+    token_daily_stats {
+ date on_date
+ varchar token_slug
+ varchar protocol_slug
+ varchar token_symbol
+ varchar token_name
+ double price
+ double circulating_supply
+ double fully_diluted_valuation
+ double market_cap
+ double max_supply
+ double total_supply
+ double trading_vol_24h
+    }
+ud_defi_fundraising_stats {
+varchar id
+ varchar fundraising_rounds
+ timestamp "day"
+ double amount
+ varchar investor
+ varchar protocol_slug
+ varchar project_slug
+ varchar project
+ varchar website
+ varchar founder
+ varchar category
+ varchar sub_category
+ varchar description
+ double valuation
+ varchar announcement
+ varchar "unique"
+ varchar round
+ timestamp updated_at
+ timestamp created_at
+}
+    protocol_info ||--|{ contract_info : contains
+		contract_info ||--|{ protocol_address_retention_monthly : contains
+	
+
+```
+
 # analysis techniques for specific protocol
 ##  This section is the content of the protocol data indicators. The following examples include tvl including the protocol, active users, new users and user retention, financing status, and token status
 ### Query the tvl ranking of each protocol on the chain 
