@@ -81,3 +81,26 @@ from
 where protocol_slug = 'planet-ix'
     and on_date = ( select max(on_date) from token_daily_stats where on_date >= date_add('day',-3,current_date))
 ```
+
+### Query the amount and frequency of Animoca Brands platform financing
+``` sql
+with nfts as (
+    SELECT
+        day
+        ,project
+        ,amount
+        ,fundraising_rounds 
+      FROM "ud_defi_fundraising_stats"
+    where 1=1
+    and sub_category ='Gaming'
+    [[and {{day}}]]
+    and project ='Animoca Brands'
+    group by day,project,amount,fundraising_rounds
+)
+select 
+  date_trunc('month',day) as month,project,
+  sum(amount) as "Financing amoun",count(1) as nums 
+from nfts
+group by 1,2
+order by 3 desc
+```
