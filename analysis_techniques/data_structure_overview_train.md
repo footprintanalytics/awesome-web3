@@ -643,8 +643,8 @@ SELECT "nft_collection_daily_stats"."on_date", sum("nft_collection_daily_stats".
 FROM "nft_collection_daily_stats"
 WHERE "nft_collection_daily_stats"."collection_contract_address" = lower('0x23581767a106ae21c074b2276d25e5c3e136a68b')
 and "nft_collection_daily_stats"."on_date" >=date_add('day',-90,current_date)
-GROUP BY "nft_collection_daily_stats"."on_date"
-ORDER BY "nft_collection_daily_stats"."on_date" ASC
+GROUP BY 1
+ORDER BY 1 ASC
 LIMIT 2000
 ```
 
@@ -655,8 +655,8 @@ SELECT "nft_collection_daily_stats"."on_date", sum("nft_collection_daily_stats".
 FROM "nft_collection_daily_stats"
 WHERE "nft_collection_daily_stats"."collection_contract_address" = lower('0x23581767a106ae21c074b2276d25e5c3e136a68b')
 and "nft_collection_daily_stats"."on_date" >=date_add('day',-90,current_date)
-GROUP BY "nft_collection_daily_stats"."on_date"
-ORDER BY "nft_collection_daily_stats"."on_date" DESC
+GROUP BY 1
+ORDER BY 1 DESC
 LIMIT 2000
 ```
 
@@ -695,12 +695,12 @@ where nfts >0
 #### query top 10 collections by Market Cap in last 90 days
 
 ```sql
-SELECT "nft_collection_daily_stats"."collection_name" AS "collection_name", sum("nft_collection_daily_stats"."market_cap") AS "sum"
+SELECT "nft_collection_daily_stats"."collection_name" AS "collection_name", sum("nft_collection_daily_stats"."market_cap") AS "market_cap"
 FROM "nft_collection_daily_stats"
 WHERE ("nft_collection_daily_stats"."on_date" >= date_add('day', -90, current_date)
    AND "nft_collection_daily_stats"."on_date" < date(now()))
-GROUP BY "nft_collection_daily_stats"."collection_name"
-ORDER BY "sum" DESC, "nft_collection_daily_stats"."collection_name" ASC
+GROUP BY 1
+ORDER BY 2 DESC, 1 ASC
 LIMIT 10
 ```
 
@@ -711,8 +711,8 @@ SELECT "nft_collection_daily_stats"."collection_name" AS "collection_name", sum(
 FROM "nft_collection_daily_stats"
 WHERE ("nft_collection_daily_stats"."on_date" >= date_add('day', -90, current_date)
    AND "nft_collection_daily_stats"."on_date" < date(now()))
-GROUP BY "nft_collection_daily_stats"."collection_name"
-ORDER BY "volume" DESC, "nft_collection_daily_stats"."collection_name" ASC
+GROUP BY 1
+ORDER BY 2 DESC, 1 ASC
 LIMIT 10
 ```
 
@@ -724,8 +724,8 @@ FROM "nft_collection_daily_stats"
 WHERE "nft_collection_daily_stats"."on_date" >= date_add('day', -90, current_date)
    AND "nft_collection_daily_stats"."on_date" < current_date 
 AND "nft_collection_daily_stats"."collection_slug" = 'cryptopunks'
-GROUP BY date("nft_collection_daily_stats"."on_date"), "nft_collection_daily_stats"."collection_slug"
-ORDER BY date("nft_collection_daily_stats"."on_date") DESC, "nft_collection_daily_stats"."collection_slug" ASC
+GROUP BY 1, 2
+ORDER BY 1 DESC, 2 ASC
 LIMIT 2000
 ```
 
@@ -738,8 +738,8 @@ FROM "nft_collection_daily_stats"
 WHERE "nft_collection_daily_stats"."collection_slug" = 'benji-bananas-membership-pass'
         AND "nft_collection_daily_stats"."on_date" >= date_add('day', -90, current_date)
         AND "nft_collection_daily_stats"."on_date" < current_date
-GROUP BY  "nft_collection_daily_stats"."on_date"
-ORDER BY  date("nft_collection_daily_stats"."on_date") ASC LIMIT 2000
+GROUP BY  1
+ORDER BY  1 ASC LIMIT 2000
 ```
 
 
