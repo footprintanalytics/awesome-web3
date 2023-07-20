@@ -1075,6 +1075,7 @@ order by 3 desc
 ```
 ## Solana chain Analysis Scenarios
 ### Query the Solana chain of each user's entry and exit of SOL tokens in the walken main account in the past 30 days
+- Because the address of STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK is the account address of STEPN, so when source = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK', it means withdrawal, otherwise destination = 'STEPNq2UGeGSzCyGVr2nMQAz f8xuejwqebd84wcksCK' is deposit
 ``` sql
 SELECT 
     date("block_timestamp") AS "block_timestamp"
