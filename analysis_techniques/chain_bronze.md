@@ -134,7 +134,33 @@ erDiagram
       bigint log_index
       string decoded_data
     }
-
+solana_token_transfers {
+ timestamp block_timestamp
+ bigint block_number
+ bigint block_height
+ varchar source
+ varchar destination
+ varchar mint
+ varchar value
+ bigint scale
+ varchar signature
+ varchar main_program
+ varchar main_signer
+ double from_pre_balance
+ double to_pre_balance
+ double from_post_balance
+ double to_post_balance
+ varchar block_hash
+ varchar gen_id
+ decimal amount_raw
+}
+solana_account_mapping {
+ varchar token_address
+ varchar token_account
+ varchar owner
+ timestamp hold_start_time
+ timestamp hold_end_time
+}
     protocol_info ||--|{ contract_info : contains
 		contract_info ||--|{ ethereum_decoded_events : contains
 		ethereum_blocks ||--|{ ethereum_transactions : contains
@@ -142,6 +168,7 @@ erDiagram
 		ethereum_transactions ||--|{ ethereum_logs : contains
 		ethereum_transactions ||--|{ ethereum_traces : contains
 		ethereum_logs ||--o| ethereum_decoded_events : parsed
+
 ```
 
 
@@ -308,4 +335,36 @@ ON
 WHERE token_transfers.block_timestamp >= date_add('day', -2, current_date) and timestamp < current_date
 GROUP BY 1
 ORDER BY 1
+```
+## Solana chain Analysis Scenarios
+### Query the Solana chain of each user's entry and exit of SOL tokens in the walken main account in the past 30 days
+``` sql
+SELECT 
+    date("block_timestamp") AS "block_timestamp"
+    , CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END AS "signer"
+    , ( sum(CASE WHEN "destination" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+               THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 
+               THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END
+               ) - 
+        sum(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+                 THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END)
+    ) AS "net_amount"
+    ,sum(CASE WHEN "destination" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+               THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 
+               THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END
+               ) as in_amount
+    ,sum(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+                 THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END) as out_amount           
+FROM "footprint"."solana_token_transfers"
+WHERE ("mint" = 'sol'
+   AND ("source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' OR "destination" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK') 
+    AND "block_timestamp" >= date(date_add('day', -30, now())) 
+    AND "block_timestamp" < date(date_add('day', 1, now())) 
+    AND ("source" <> 'Ffbor3Zx46oGPK59S7drZjcTSt8mygZGWc5qkcHLPtWV' OR "source" IS NULL) 
+    AND ("destination" <> 'Ffbor3Zx46oGPK59S7drZjcTSt8mygZGWc5qkcHLPtWV' OR "destination" IS NULL) 
+    AND (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 THEN NULL ELSE power(10, "scale") END) > 0.02)
+GROUP BY date("block_timestamp"),
+(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END)
+ORDER BY date("block_timestamp") ASC, 
+(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END) ASC 
 ```
