@@ -220,3 +220,29 @@ from nfts
 group by 1,2
 order by 3 desc
 ```
+### Query the Solana chain gamefi protocol active user ranking list
+``` sql
+select 
+    on_date
+    ,protocol_daily_stats.chain
+    ,protocol_daily_stats.protocol_slug
+    ,logo
+    ,protocol_daily_stats.protocol_name
+    ,coalesce(number_of_active_users,0) as "Active Users"
+    ,coalesce(volume,0) as "Volume"
+    ,coalesce(number_of_transactions,0) as "Transactions"
+from gamefi_protocol_daily_stats protocol_daily_stats
+where on_date in( select max(on_date) from gamefi_protocol_daily_stats)
+order by number_of_active_users desc
+```
+
+### Query the number of monthly active users of the Solana chain Walken protocol
+``` sql 
+select 
+	date_trunc('month',block_timestamp) as month,
+	count(distinct wallet_address) as "Active Users"
+from protocol_transactions 
+where chain ='Solana'
+and protocol_name ='Walken'
+group by 1
+```
