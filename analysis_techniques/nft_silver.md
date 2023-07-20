@@ -318,4 +318,14 @@ order by  2 desc
 )
 where nfts >0
 ```
-
+#### Query the transaction volume of magic eden marketplace in solana chain past 30 days
+``` sql
+select 
+    sum(value) as "volume(USD)"
+from nft_transactions
+where chain ='Solana'
+and marketplace_slug ='magic-eden'
+and block_timestamp >= date_add('day',-30,current_date)
+group by 1 
+order by 1
+```
