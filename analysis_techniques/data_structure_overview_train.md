@@ -364,6 +364,33 @@ varchar id
         timestamp updated_at
         varchar updated_by
     }
+solana_token_transfers {
+ timestamp block_timestamp
+ bigint block_number
+ bigint block_height
+ varchar source
+ varchar destination
+ varchar mint
+ varchar value
+ bigint scale
+ varchar signature
+ varchar main_program
+ varchar main_signer
+ double from_pre_balance
+ double to_pre_balance
+ double from_post_balance
+ double to_post_balance
+ varchar block_hash
+ varchar gen_id
+ decimal amount_raw
+}
+solana_account_mapping {
+ varchar token_address
+ varchar token_account
+ varchar owner
+ timestamp hold_start_time
+ timestamp hold_end_time
+}
     nft_collection_info ||--o|  nft_transactions: contains
     nft_collection_info ||--o|  nft_collection_daily_stats : has
     nft_orders ||--o|  nft_collection_daily_stats : has
@@ -1045,4 +1072,74 @@ select
 from nfts
 group by 1,2
 order by 3 desc
+```
+## Solana chain Analysis Scenarios
+### Query the Solana chain of each user's entry and exit of SOL tokens in the walken main account in the past 30 days
+``` sql
+SELECT 
+    date("block_timestamp") AS "block_timestamp"
+    , CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END AS "signer"
+    , ( sum(CASE WHEN "destination" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+               THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 
+               THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END
+               ) - 
+        sum(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+                 THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END)
+    ) AS "net_amount"
+    ,sum(CASE WHEN "destination" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+               THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 
+               THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END
+               ) as in_amount
+    ,sum(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' 
+                 THEN (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 THEN NULL ELSE power(10, "scale") END) ELSE 0.0 END) as out_amount           
+FROM "footprint"."solana_token_transfers"
+WHERE ("mint" = 'sol'
+   AND ("source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' OR "destination" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK') 
+    AND "block_timestamp" >= date(date_add('day', -30, now())) 
+    AND "block_timestamp" < date(date_add('day', 1, now())) 
+    AND ("source" <> 'Ffbor3Zx46oGPK59S7drZjcTSt8mygZGWc5qkcHLPtWV' OR "source" IS NULL) 
+    AND ("destination" <> 'Ffbor3Zx46oGPK59S7drZjcTSt8mygZGWc5qkcHLPtWV' OR "destination" IS NULL) 
+    AND (CAST("amount_raw" AS double) / CASE WHEN power(10, "scale") = 0 THEN NULL ELSE power(10, "scale") END) > 0.02)
+GROUP BY date("block_timestamp"),
+(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END)
+ORDER BY date("block_timestamp") ASC, 
+(CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END) ASC 
+```
+### Query the Solana chain gamefi protocol active user ranking list
+``` sql
+select 
+    on_date
+    ,protocol_daily_stats.chain
+    ,protocol_daily_stats.protocol_slug
+    ,logo
+    ,protocol_daily_stats.protocol_name
+    ,coalesce(number_of_active_users,0) as "Active Users"
+    ,coalesce(volume,0) as "Volume"
+    ,coalesce(number_of_transactions,0) as "Transactions"
+from gamefi_protocol_daily_stats protocol_daily_stats
+where on_date in( select max(on_date) from gamefi_protocol_daily_stats)
+order by number_of_active_users desc
+```
+
+### Query the number of monthly active users of the Solana chain Walken protocol
+``` sql 
+select 
+	date_trunc('month',block_timestamp) as month,
+	count(distinct wallet_address) as "Active Users"
+from protocol_transactions 
+where chain ='Solana'
+and protocol_name ='Walken'
+group by 1
+```
+
+#### Query the transaction volume of magic eden marketplace in solana chain past 30 days
+``` sql
+select 
+    sum(value) as "volume(USD)"
+from nft_transactions
+where chain ='Solana'
+and marketplace_slug ='magic-eden'
+and block_timestamp >= date_add('day',-30,current_date)
+group by 1 
+order by 1
 ```
