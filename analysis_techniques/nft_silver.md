@@ -121,7 +121,7 @@ collection_slug to name some blue chip nft collection, such as cryptopunks, cryp
 ### query NFT marketplace Total Volume of using X2Y2  
 
 ```sql
-SELECT date("footprint"."nft_transactions"."block_timestamp") AS "block_timestamp", sum("footprint"."nft_transactions"."amount") AS "sum"
+SELECT date("footprint"."nft_transactions"."block_timestamp") AS "block_timestamp", sum("footprint"."nft_transactions"."eth_amount") AS "Volume(ETH)"
 FROM "footprint"."nft_transactions"
 WHERE lower("footprint"."nft_transactions"."marketplace_slug") = 'x2y2'
 GROUP BY date("footprint"."nft_transactions"."block_timestamp")
@@ -319,7 +319,7 @@ order by  2 desc
 where nfts >0
 ```
 #### Query the transaction volume of magic eden marketplace in solana chain past 30 days
-``` sql
+```sql
 select 
     sum(value) as "volume(USD)"
 from nft_transactions
