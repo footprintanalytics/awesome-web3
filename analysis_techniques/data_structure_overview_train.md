@@ -534,26 +534,35 @@ ORDER BY DATE(fet.on_date) ASC
 
 
 ## Log analysis scenario
+### Example of Parsing Chain Log Table - Data Retrieval from Ethereum to Ronin
+To extract data from Ethereum to Ronin, let's consider a common scenario where the second index of the `topics` array is "0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b." This specific value indicates a cross-chain transfer event, and the address "0x64192819ac13ef72bf6b5ae239ac672b43a9af08" corresponds to Axie Infinity: Ronin Bridge V2.
 
-### Cross-chain data analysis
+We need to parse this data and retrieve the transfer address, transferred token, and token amount. To achieve this, we can use the following steps:
 
-- By analyzing logs, we can know the number of tokens and users across each chain
+1. Extract the fourth part of the `data` string (starting from the 3rd character) and convert it into the user address. Each group contains 64 bits.
 
-### SQL analysis method
+2. Convert the extracted address to a standard format by appending "0x" to the beginning.
 
-#### Get the data from the etherem chain to the ronin chain,When the second index of the array topics is 0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b, it means cross-chain, and the address 0x64192819ac13ef72bf6b5ae239ac672b43a9af08 is Axie Infinity: The cross-chain address of Ronin Bridge V2. The transferred address, transferred tokens and number of tokens are parsed from the data.
+3. Extract the fifth part of the `data` string and convert it to the user address.
+
+4. Extract the twelfth part of the `data` string as a hexadecimal value.
+
+5. Convert the extracted hexadecimal value to a decimal representation.
+
+To implement the above steps, we can use the provided SQL query:
+
 ```sql
-select date_trunc('day', block_timestamp) as block_date, --Intercept date
-     substring(data, 3 + 64 * 3, 64) hex_address, -- Extract the 4th part in the data and convert it into the user address, starting from the 3rd character, each 64-bit group
-     concat('0x', substring(substring(data, 3 + 64 * 3, 64), -40)) as address, -- Extract the fourth part of the data and convert it to the user address, starting from the third character, each 64 bits are a group, 40 bits are intercepted from the right, and the intercepted data is connected with '0x'
-     concat('0x', substring(substring(data, 3 + 64 * 4, 64), -40)) as token, -- Extract the 5th part in data and convert it to the user address
-     substring(data, 3 + 64 * 11, 64) as hex_amount, -- extract the 12th part in data
-     from_base(substring(data, 3 + 64 * 11, 64),16) as amount, -- Extract the 12th part in data and convert it to a decimal value
+select date_trunc('day', block_timestamp) as block_date,
+     substring(data, 3 + 64 * 3, 64) as hex_address,
+     concat('0x', substring(substring(data, 3 + 64 * 3, 64), -40)) as address,
+     concat('0x', substring(substring(data, 3 + 64 * 4, 64), -40)) as token,
+     substring(data, 3 + 64 * 11, 64) as hex_amount,
+     from_base(substring(data, 3 + 64 * 11, 64), 16) as amount,
      transaction_hash
 from ethereum_logs
 where address = '0x64192819ac13ef72bf6b5ae239ac672b43a9af08' -- Axie Infinity: Ronin Bridge V2
-     and element_at(topics,1) = lower('0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b') -- DepositRequested
-     and substring(data, 3 + 64 * 4, 64) = '00000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' -- WETH, directly determine the hexadecimal value
+     and element_at(topics, 2) = lower('0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b') -- DepositRequested
+     and substring(data, 3 + 64 * 4, 64) = '00000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' -- WETH, using hexadecimal value directly
      and block_timestamp >= now() - interval '7' day
 limit 10
 ```
