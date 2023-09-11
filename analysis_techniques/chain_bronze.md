@@ -399,6 +399,6 @@ where address = '0x64192819ac13ef72bf6b5ae239ac672b43a9af08' -- Axie Infinity: R
      and element_at(topics, 2) = lower('0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b') -- DepositRequested
      and substring(data, 3 + 64 * 4, 64) = '00000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' -- WETH, using hexadecimal value directly
      and block_timestamp >= now() - interval '7' day
-limit 10;
+limit 10
 ```
 
