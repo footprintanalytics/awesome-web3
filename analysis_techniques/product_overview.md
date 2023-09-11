@@ -492,3 +492,7 @@ SELECT column_name(s) FROM table_name1
 UNION ALL*
 SELECT column_name(s) FROM table_name2
 ```
+#### How to Convert Hexadecimal to Numbers
+```sql
+   SELECT FROM_BASE('hexadecimal_value', 16)
+```
