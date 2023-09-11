@@ -391,6 +391,59 @@ solana_account_mapping {
  timestamp hold_start_time
  timestamp hold_end_time
 }
+  ethereum_address_monthly_stats {
+      varchar chain
+      date on_month
+      varchar wallet_address
+      varchar to_address
+      bigint number_of_txn
+      array active_date_list
+      double total_gas_fee
+      timestamp first_txn_time
+      timestamp last_txn_time
+      double first_txn_amount
+      varchar first_txn_token_address
+      double last_txn_amount
+      varchar last_txn_token_address
+      timestamp updated_at
+      double total_gas_fee_in_usd
+    }
+      ethereum_address_contract_monthly_stats {
+      varchar chain
+      date on_month
+      varchar wallet_address
+      varchar contract_address
+      bigint number_of_txn
+      bigint number_of_active_days
+      double total_gas_fee
+      timestamp first_txn_time
+      timestamp last_txn_time
+      double max_txn_amount
+      timestamp updated_at
+    }
+    
+     ethereum_contract {
+      timestamp deploy_block_timestamp
+      integer deploy_block_number
+      varchar deploy_deployer_address
+      varchar contract_address
+      varchar bytecode
+      varchar deploy_transaction_hash
+      varchar deploy_transaction_from_address
+    }
+
+     address_latest_balance {
+      varchar wallet_address
+      varchar chain
+      double amount
+      double amount_raw
+      double value
+      bigint holding_time
+      varchar standard
+      timestamp updated_at
+      varchar contract_address
+      varchar asset_name
+    }
     nft_collection_info ||--o|  nft_transactions: contains
     nft_collection_info ||--o|  nft_collection_daily_stats : has
     nft_orders ||--o|  nft_collection_daily_stats : has
@@ -399,10 +452,17 @@ solana_account_mapping {
     protocol_info ||--o| gamefi_protocol_daily_stats : has
     protocol_info ||--|{ contract_info : contains
     contract_info ||--|{ ethereum_decoded_events : contains
+    contract_info ||--|{ address_latest_balance : contains
+    contract_info ||--|{ ethereum_contract : contains
+    contract_info ||--|{ ethereum_address_contract_monthly_stats : contains 
+    contract_info ||--|{ ethereum_address_monthly_stats : contains
     ethereum_blocks ||--|{ ethereum_transactions : contains
     ethereum_transactions ||--|{ ethereum_token_transfers : contains
     ethereum_transactions ||--|{ ethereum_logs : contains
     ethereum_transactions ||--|{ ethereum_traces : contains
+    ethereum_transactions ||--|{ ethereum_address_contract_monthly_stats : contains
+    ethereum_transactions ||--|{ ethereum_address_monthly_stats : contains
+    ethereum_traces ||--|{ address_latest_balance : contains
     ethereum_logs ||--o| ethereum_decoded_events : parsed
 
 
@@ -473,7 +533,30 @@ ORDER BY DATE(fet.on_date) ASC
 ```
 
 
+## Log analysis scenario
 
+### Cross-chain data analysis
+
+- By analyzing logs, we can know the number of tokens and users across each chain
+
+### SQL analysis method
+
+#### Get the data from the etherem chain to the ronin chain,When the second index of the array topics is 0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b, it means cross-chain, and the address 0x64192819ac13ef72bf6b5ae239ac672b43a9af08 is Axie Infinity: The cross-chain address of Ronin Bridge V2. The transferred address, transferred tokens and number of tokens are parsed from the data.
+```sql
+select date_trunc('day', block_timestamp) as block_date, --Intercept date
+     substring(data, 3 + 64 * 3, 64) hex_address, -- Extract the 4th part in the data and convert it into the user address, starting from the 3rd character, each 64-bit group
+     concat('0x', substring(substring(data, 3 + 64 * 3, 64), -40)) as address, -- Extract the fourth part of the data and convert it to the user address, starting from the third character, each 64 bits are a group, 40 bits are intercepted from the right, and the intercepted data is connected with '0x'
+     concat('0x', substring(substring(data, 3 + 64 * 4, 64), -40)) as token, -- Extract the 5th part in data and convert it to the user address
+     substring(data, 3 + 64 * 11, 64) as hex_amount, -- extract the 12th part in data
+     from_base(substring(data, 3 + 64 * 11, 64),16) as amount, -- Extract the 12th part in data and convert it to a decimal value
+     transaction_hash
+from ethereum_logs
+where address = '0x64192819ac13ef72bf6b5ae239ac672b43a9af08' -- Axie Infinity: Ronin Bridge V2
+     and element_at(topics,1) = lower('0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b') -- DepositRequested
+     and substring(data, 3 + 64 * 4, 64) = '00000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' -- WETH, directly determine the hexadecimal value
+     and block_timestamp >= now() - interval '7' day
+limit 10
+```
 
 ## Token Transfer Analysis Scenarios
 
@@ -584,7 +667,7 @@ collection_slug to name some blue chip nft collection, such as cryptopunks, cryp
 ### query NFT marketplace Total Volume of using X2Y2  
 
 ```sql
-SELECT date("nft_transactions"."block_timestamp") AS "block_timestamp", sum("nft_transactions"."amount") AS "sum"
+SELECT date("nft_transactions"."block_timestamp") AS "block_timestamp", sum("nft_transactions"."eth_amount") AS "Volume(ETH)"
 FROM "nft_transactions"
 WHERE lower("nft_transactions"."marketplace_slug") = 'x2y2'
 GROUP BY date("nft_transactions"."block_timestamp")
