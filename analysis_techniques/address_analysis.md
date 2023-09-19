@@ -21,7 +21,18 @@ erDiagram
       varchar token_symbol
       int block_number
     }
-
+     ethereum_nft_token_latest_balance {
+      varchar wallet_address
+      varchar chain
+      double amount
+      double amount_raw
+      double value
+      bigint holding_time
+      varchar standard
+      timestamp updated_at
+      varchar collection_contract_address
+      varchar collection_name
+    }
 
      ethereum_contract {
       timestamp deploy_block_timestamp
