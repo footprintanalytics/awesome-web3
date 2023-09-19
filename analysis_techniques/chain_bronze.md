@@ -369,36 +369,38 @@ ORDER BY date("block_timestamp") ASC,
 (CASE WHEN "source" = 'STEPNq2UGeGSzCyGVr2nMQAzf8xuejwqebd84wcksCK' THEN "destination" ELSE "source" END) ASC 
 ```
 ## Log analysis scenario
-### Example of Parsing Chain Log Table - Data Retrieval from Ethereum to Ronin
-To extract data from Ethereum to Ronin, let's consider a common scenario where the second index of the `topics` array is "0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b." This specific value indicates a cross-chain transfer event, and the address "0x64192819ac13ef72bf6b5ae239ac672b43a9af08" corresponds to Axie Infinity: Ronin Bridge V2.
 
-We need to parse this data and retrieve the transfer address, transferred token, and token amount. To achieve this, we can use the following steps:
+### Example of Parsing Chain Log Table for Ethereum to Ronin Data Retrieval
 
-1. Extract the fourth part of the `data` string (starting from the 3rd character) and convert it into the user address. Each group contains 64 bits.
+Description: In this example, we will demonstrate how to extract data from Ethereum to Ronin by parsing a chain log table. We will focus on a specific scenario where the second index of the topics array matches the value "0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b." This particular value indicates a cross-chain transfer event, and the corresponding address, "0x64192819ac13ef72bf6b5ae239ac672b43a9af08," represents Axie Infinity: Ronin Bridge V2.
 
-2. Convert the extracted address to a standard format by appending "0x" to the beginning.
+To extract the required data, we need to perform the following steps:
 
-3. Extract the fifth part of the `data` string and convert it to the user address.
+1. Extract the fourth part of the data string, starting from the 3rd character. This part contains the user address in 64-bit groups.
+2. Convert the extracted address into a standard format by adding "0x" at the beginning.
+3. Extract the fifth part of the data string, which represents the transferred token.
+4. Retrieve the twelfth part of the data string as a hexadecimal value.
+5. Convert the hexadecimal value into a decimal representation.
 
-4. Extract the twelfth part of the `data` string as a hexadecimal value.
-
-5. Convert the extracted hexadecimal value to a decimal representation.
-
-To implement the above steps, we can use the provided SQL query:
+To accomplish this, we can use the following SQL query as an example:
 
 ```sql
-select date_trunc('day', block_timestamp) as block_date,
-     substring(data, 3 + 64 * 3, 64) as hex_address,
-     concat('0x', substring(substring(data, 3 + 64 * 3, 64), -40)) as address,
-     concat('0x', substring(substring(data, 3 + 64 * 4, 64), -40)) as token,
-     substring(data, 3 + 64 * 11, 64) as hex_amount,
-     from_base(substring(data, 3 + 64 * 11, 64), 16) as amount,
-     transaction_hash
-from ethereum_logs
-where address = '0x64192819ac13ef72bf6b5ae239ac672b43a9af08' -- Axie Infinity: Ronin Bridge V2
-     and element_at(topics, 2) = lower('0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b') -- DepositRequested
-     and substring(data, 3 + 64 * 4, 64) = '00000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' -- WETH, using hexadecimal value directly
-     and block_timestamp >= now() - interval '7' day
-limit 10
+SELECT
+    date_trunc('day', block_timestamp) AS block_date,
+    substring(data, 3 + 64 * 3, 64) AS hex_address,
+    CONCAT('0x', substring(substring(data, 3 + 64 * 3, 64), -40)) AS address,
+    CONCAT('0x', substring(substring(data, 3 + 64 * 4, 64), -40)) AS token,
+    substring(data, 3 + 64 * 11, 64) AS hex_amount,
+    from_base(substring(data, 3 + 64 * 11, 64), 16) AS amount,
+    transaction_hash
+FROM ethereum_logs
+WHERE
+    address = '0x64192819ac13ef72bf6b5ae239ac672b43a9af08' -- Represents Axie Infinity: Ronin Bridge V2
+    AND element_at(topics, 2) = lower('0xd7b25068d9dc8d00765254cfb7f5070f98d263c8d68931d937c7362fa738048b') -- Matches the cross-chain transfer event
+    AND substring(data, 3 + 64 * 4, 64) = '00000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' -- Refers to WETH specified by its hexadecimal value
+    AND block_timestamp >= now() - interval '7' day -- Filters the data based on a specific time range (e.g., last 7 days)
+LIMIT 10;
 ```
+
+This SQL query retrieves relevant information from the Ethereum log table. It includes columns such as the block date, hexadecimal address, user address, token address, hexadecimal amount, decimal amount, and transaction hash. The query applies filters based on the address, topic, token address, and block timestamp to narrow down the results. Finally, it limits the output to the latest 10 records within the last 7 days.
 
