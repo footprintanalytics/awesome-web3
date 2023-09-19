@@ -127,7 +127,7 @@ The table `{{chain}}_nft_token_latest_balance` contains records of the latest ba
 - `standard`: Represents the standard or protocol followed by the NFT collection (e.g., ERC-721, ERC-1155, etc.).
 - `updated_at`: Represents the timestamp indicating when the NFT balance record was last updated.
 
-To retrieve the information related to the NFT holdings of a specific wallet address '0x176F3DAb24a159341c0509bB36B833E7fdd0a132' (converted to lowercase) on the {{chain}} blockchain, you can use the following SQL example:
+To retrieve the information related to the NFT holdings of a specific wallet address '0x176F3DAb24a159341c0509bB36B833E7fdd0a132' (converted to lowercase) on the ethereum blockchain, you can use the following SQL example:
 
 ```sql
 SELECT
@@ -138,7 +138,7 @@ SELECT
     collection_contract_address AS "Collection Contract Address",
     nft_token_id AS "NFT Token ID",
     standard AS "Standard"
-FROM {{chain}}_nft_token_latest_balance
+FROM ethereum_nft_token_latest_balance
 WHERE wallet_address = lower('0x176f3dab24a159341c0509bb36b833e7fdd0a132')
 ```
 
