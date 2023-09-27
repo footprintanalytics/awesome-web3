@@ -391,7 +391,52 @@ solana_account_mapping {
  timestamp hold_start_time
  timestamp hold_end_time
 }
-  ethereum_address_monthly_stats {
+  ethereum_address_token_latest_balance {
+      varchar wallet_address
+      varchar chain
+      double amount
+      double amount_raw
+      double value
+      timestamp updated_at
+      varchar token_address
+      varchar token_symbol
+      int block_number
+    }
+     ethereum_nft_token_latest_balance {
+      varchar wallet_address
+      varchar chain
+      double amount
+      double amount_raw
+      double value
+      bigint holding_time
+      varchar standard
+      timestamp updated_at
+      varchar collection_contract_address
+      varchar collection_name
+    }
+
+     ethereum_contract {
+      timestamp deploy_block_timestamp
+      integer deploy_block_number
+      varchar deploy_deployer_address
+      varchar contract_address
+      varchar bytecode
+      varchar deploy_transaction_hash
+      varchar deploy_transaction_from_address
+    }
+     ethereum_address_latest_latest{
+      varchar wallet_address
+      varchar chain
+      double amount
+      double amount_raw
+      double value
+      timestamp updated_at
+      varchar token_address
+      varchar token_symbol
+      int block_number
+    }
+
+   ethereum_address_monthly_stats {
       varchar chain
       date on_month
       varchar wallet_address
@@ -421,17 +466,6 @@ solana_account_mapping {
       double max_txn_amount
       timestamp updated_at
     }
-    
-     ethereum_contract {
-      timestamp deploy_block_timestamp
-      integer deploy_block_number
-      varchar deploy_deployer_address
-      varchar contract_address
-      varchar bytecode
-      varchar deploy_transaction_hash
-      varchar deploy_transaction_from_address
-    }
-
      address_latest_balance {
       varchar wallet_address
       varchar chain
